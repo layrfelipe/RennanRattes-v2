@@ -1,7 +1,7 @@
 import { component$, Slot } from '@builder.io/qwik';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
-import Whatsapp from '../components/whatsapp/whatsapp';
+// import Whatsapp from '../components/whatsapp/whatsapp';
 
 export default component$(() => {
   return (
@@ -10,7 +10,7 @@ export default component$(() => {
         <Header />
         <section>
           <Slot />
-          <Whatsapp />
+          {/* <Whatsapp /> */}
         </section>
       </main>
       <Footer />

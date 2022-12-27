@@ -1,50 +1,53 @@
-import { component$, useStore, useStylesScoped$, $ } from '@builder.io/qwik';
+// import { component$, useStore, useStylesScoped$, $ } from '@builder.io/qwik';
+import { component$, useStylesScoped$ } from '@builder.io/qwik';
+
 import type { DocumentHead } from '@builder.io/qwik-city';
 
 import styles from '../styles/home.scss?inline';
 
-import { ChevronDown } from '~/components/icons/chevronDown';
-import { ChevronRight } from '~/components/icons/chevronRight';
-import { Focus } from '~/components/icons/focus';
-import { Brain } from '~/components/icons/brain';
-import { Sad } from '~/components/icons/sad';
-import { Eat } from '~/components/icons/eat';
-import { Guitar } from '~/components/icons/guitar';
-import { Sleep } from '~/components/icons/sleep';
-import { Check } from '~/components/icons/check';
+// import { ChevronDown } from '~/components/icons/chevronDown';
+// import { ChevronRight } from '~/components/icons/chevronRight';
+// import { Focus } from '~/components/icons/focus';
+// import { Brain } from '~/components/icons/brain';
+// import { Sad } from '~/components/icons/sad';
+// import { Eat } from '~/components/icons/eat';
+// import { Guitar } from '~/components/icons/guitar';
+// import { Sleep } from '~/components/icons/sleep';
+// import { Check } from '~/components/icons/check';
+// import { Quotes } from '~/components/icons/quotes';
 
 export default component$(() => {
   useStylesScoped$(styles);
   
-  const statusFirst = useStore({ value: false });
-  const handleFirst = $(() => {
-    statusFirst.value = !statusFirst.value;
-  });
+  // const statusFirst = useStore({ value: false });
+  // const handleFirst = $(() => {
+  //   statusFirst.value = !statusFirst.value;
+  // });
 
-  const statusSecond = useStore({ value: false });
-  const handleSecond = $(() => {
-    statusSecond.value = !statusSecond.value;
-  });
+  // const statusSecond = useStore({ value: false });
+  // const handleSecond = $(() => {
+  //   statusSecond.value = !statusSecond.value;
+  // });
 
-  const statusThird = useStore({ value: false });
-  const handleThird = $(() => {
-    statusThird.value = !statusThird.value;
-  });
+  // const statusThird = useStore({ value: false });
+  // const handleThird = $(() => {
+  //   statusThird.value = !statusThird.value;
+  // });
 
-  const statusFourth = useStore({ value: false });
-  const handleFourth = $(() => {
-    statusFourth.value = !statusFourth.value;
-  });
+  // const statusFourth = useStore({ value: false });
+  // const handleFourth = $(() => {
+  //   statusFourth.value = !statusFourth.value;
+  // });
 
-  const statusFifth = useStore({ value: false });
-  const handleFifth = $(() => {
-    statusFifth.value = !statusFifth.value;
-  });
+  // const statusFifth = useStore({ value: false });
+  // const handleFifth = $(() => {
+  //   statusFifth.value = !statusFifth.value;
+  // });
   
   return (
     <div class="container">
       <div class="above-the-fold-content">
-        <div class="left">
+        {/* <div class="left">
           <h3>Rennan Rattes | Psicólogo - CRP: 05/54980 | +7000h de experiência clínica</h3>
           <h1>Psicólogo na Vila da Penha (Rio de Janeiro)</h1>
           <h2>Na terapia criamos estratégias para diminuir o ritmo de uma mente acelerada pela ansiedade e viver uma vida leve, feliz e cheia de amor próprio.</h2>
@@ -53,12 +56,12 @@ export default component$(() => {
 
         <div class="right">
           <div class="container">
-            {/* <img src={desenho}/> */}
+            <img src={desenho}/>
           </div>
-        </div>
+        </div> */}
       </div>
 
-      <div class="issues">
+      {/* <div class="issues">
         <h1>Você tem passado por algum desses problemas?</h1>
         <h4>Se você sente que está sozinho, tomado por uma tristeza avassaladora e não consegue cumprir as tarefas diárias, deixa eu te contar uma coisa: você pode viver uma vida muito mais leve e cheia de amor próprio se der uma chance à terapia.</h4>
         
@@ -73,10 +76,10 @@ export default component$(() => {
 
         <h3>Você quer aprender a lidar com seu sofrimento psíquico?</h3>
         <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Eu quero!</a>
-      </div>
+      </div> */}
 
 
-      <div class="benefits">
+      {/* <div class="benefits">
         <h3>Sua vida não precisa ser uma batalha contra a sua mente.</h3>
         <h2>Veja os principais benefícios da terapia:</h2>
 
@@ -129,9 +132,9 @@ export default component$(() => {
         </div>
 
         <h3 id="text-over-button">Vamos juntos recuperar seu bem-estar e a sua autoestima para viver uma vida plena!</h3>
-      </div>
+      </div> */}
 
-      <div class="about-me">
+      {/* <div class="about-me">
         <div class="left">
           <h4>Quem sou eu</h4>
           <h3>Psicólogo Rennan Rattes</h3>
@@ -147,9 +150,66 @@ export default component$(() => {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div class="faq">
+      {/* <div class="depos">
+        <h2>Depoimentos</h2>
+
+        <div class="depos-container">
+          <div class="depo">
+            <div class="header">
+              <div class="image-container">
+                <img />
+              </div>
+              <div class="description">
+                <h3>Jessica Silva</h3>
+                <h4>*Comentário disponível nas avaliações do Google</h4>
+              </div>
+            </div>
+
+            <div class="body">
+              <Quotes/>
+              <p>Posso dizer que seu profissionalismo comigo durante as sessões foi uma das melhores coisas que já aconteceram na minha vida...</p>
+            </div>
+          </div>
+
+          <div class="depo">
+            <div class="header">
+              <div class="image-container">
+                <img />
+              </div>
+              <div class="description">
+                <h3>Jessica Silva</h3>
+                <h4>*Comentário disponível nas avaliações do Google</h4>
+              </div>
+            </div>
+
+            <div class="body">
+              <Quotes/>
+              <p>Posso dizer que seu profissionalismo comigo durante as sessões foi uma das melhores coisas que já aconteceram na minha vida...</p>
+            </div>
+          </div>
+
+          <div class="depo">
+            <div class="header">
+              <div class="image-container">
+                <img />
+              </div>
+              <div class="description">
+                <h3>Jessica Silva</h3>
+                <h4>*Comentário disponível nas avaliações do Google</h4>
+              </div>
+            </div>
+
+            <div class="body">
+              <Quotes/>
+              <p>Posso dizer que seu profissionalismo comigo durante as sessões foi uma das melhores coisas que já aconteceram na minha vida...</p>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      {/* <div class="faq">
         <h1>Dúvidas frequentes</h1>
 
         <div class="wrapper" onClick$={handleFirst}>
@@ -233,7 +293,7 @@ export default component$(() => {
         </div>
 
         <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Entrar em contato</a>
-      </div>
+      </div> */}
     </div>
   );
 });

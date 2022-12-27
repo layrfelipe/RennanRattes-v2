@@ -1,0 +1,3 @@
+export const ChevronRight = () => (
+    <svg style="margin-right: 1vw; filter: invert(23%) sepia(80%) saturate(277%) hue-rotate(144deg) brightness(88%) contrast(95%);" xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(1 1)"><path d="M7 10l5-5-5-5M0 10l5-5-5-5"/></g></svg>
+)

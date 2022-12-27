@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .header-main-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2.5vh 6vw;
+        border-bottom: 3px solid #224851;
+        background: #0a3541;
+
+        .logo {
+            height: 4vw;
+            width: 4vw;
+            background: black;
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cta-on-header {
+            color: white;
+            font: 700 1rem Open Sans;
+            border: 2px solid white;
+            border-radius: .5rem;
+            padding: .5vw;
+            text-decoration: none;
+        }
+    }
+}

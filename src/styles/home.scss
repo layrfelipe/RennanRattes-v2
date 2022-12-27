@@ -8,8 +8,397 @@
 
         .above-the-fold-content {
             width: 100%;
-            height: 100vh;
+            height: 85vh;
+            background: #0a3541;
+            display: flex;
+            flex-direction: column;
+            padding: 5vh 2.5vh;
+
+            .left {
+                display: flex;
+                flex-direction: column;
+                align-self: flex-start;
+                width: 100%;
+
+                h3 {
+                    font: 400 1rem Open Sans;
+                    color: white;
+                    margin-bottom: 3vh;
+                }
+
+                h1 {
+                    font: 800 2rem Open Sans;
+                    color: white;
+                    margin-bottom: 3vh;
+                }
+
+                h2 {
+                    font: 400 1.25rem Open Sans;
+                    color: white;
+                    margin-bottom: 3vh;
+                }
+
+                a {
+                    color: white;
+                    font: 700 1.5rem Open Sans;
+                    border: 2px solid white;
+                    border-radius: .5vh;
+                    padding: 1vh;
+                    text-decoration: none;
+                    align-self: flex-start;
+                }
+            }
+
+            .right {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                margin-top: 4vh;
+                background: black;
+
+                img {
+                    max-height: 45vh;
+                }
+            }
+        }
+
+        .issues {
+            width: 100%;
             background: #e2e2e2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5vh 2.5vh;
+
+            h1 {
+                color: #224851;
+                text-align: center;
+                font: 700 2rem Open Sans;
+            }
+
+            h4 {
+                color: #224851;
+                text-align: center;
+                font: 500 1.2rem Open Sans;
+                margin-top: 2.5vh;
+                margin-bottom: 1.5vh;
+            }
+
+            .relatable-issues {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .issue {
+                    display: flex;
+                    align-items: center;
+                    border: 3px solid #224851;
+                    border-radius: .5rem;
+                    padding: 2vh;
+                    width: 100%;
+                    color: #224851;
+                    text-align: left;
+                    margin: 2vh 0;
+
+                    h2 {
+                        color: #224851;
+                        text-align: left;
+                        margin: 2vh 0;
+                        font: 600 1rem Open Sans;
+                        margin-left: 2vh;
+                    }
+                }
+            }
+
+            h3 {
+                color: #224851;
+                text-align: center;
+                font: 500 1.75rem Open Sans;
+                margin-top: 3vh;
+                text-decoration: underline;
+            }
+
+            a {
+                background: #0a3541;
+                color: white;
+                font: 700 1.5rem Open Sans;
+                border: none;
+                border-radius: .5rem;
+                margin-top: 3vh;
+                text-decoration: none;
+                text-align: center;
+                padding: 1vh 3vh;
+            }
+        }
+
+        .benefits {
+            width: 100%;
+            background: #0a3541;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5vh 2.5vh;
+
+            h3 {
+                color: white;
+                font: 300 1.2rem Open Sans;
+                text-align: center;
+            }
+
+            h2 {
+                color: white;
+                font: 700 1.85rem Open Sans;
+                text-align: center;
+                margin-top: 3vh;
+            }
+
+            .container {
+                width: 100%;
+                background: none;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                place-items: center;
+                margin-top: 3vh;
+                gap: 2vh;
+
+                .left {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .benefit {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        padding: 2vh 0;
+                        height: 100%;
+
+                        p {
+                            color: white;
+                            font: 400 1rem Open Sans;
+                            width: 80%;
+                            margin-left: .75vh;
+                        }
+                    }
+                }
+
+                .right {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .benefit {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        padding: 2vh 0;
+                        height: 100%;
+
+                        p {
+                            color: white;
+                            font: 400 1rem Open Sans;
+                            width: 80%;
+                            margin-left: .75vh;
+                        }
+                    }
+                }
+            }
+
+            #text-over-button {
+                margin-top: 5vh;
+            }
+        }
+
+        .about-me {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 6.5vh 2vh;
+            background: #0a3541;
+            
+            .left {
+                width: 100%;
+
+                h4 {
+                    color: white;
+                    font: 300 1.2rem Open Sans;
+                    font-style: italic;
+                }
+
+                h3 {
+                    color: white;
+                    font: 700 2rem Open Sans;
+                    margin-top: 1vh;
+                }
+
+                p {
+                    color: white;
+                    font: 300 1rem Open Sans;
+                    margin-top: 1vh;
+                }
+            }
+
+            .right {
+                width: 100%;
+                margin-top: 4vh;
+
+                .container {
+                    width: 100%;
+                    height: 100%;
+                    min-height: 40vh;
+                    background: black;
+                }
+            }
+        }
+
+        .depos {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 6vh 2vh 0 2vh;
+            background: #0a3541;
+            
+            h2 {
+                color: white;
+                font: 700 2.5rem Open Sans;
+            }
+
+            .depos-container {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 2vh 0;
+                padding-top: 4vh;
+
+                .depo {
+                    width: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 8vh;
+
+                    .header {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        height: 40%;
+                        padding: 1vh;
+
+                        .image-container {
+                            width: 30%;
+                            height: 10vh;
+                            background: black;
+                        }
+
+                        .description {
+                            width: 65%;
+                            display: flex;
+                            flex-direction: column;
+                            align-self: flex-start;
+                            justify-content: flex-start;
+
+                            h3 {
+                                color: white;
+                                font: 600 1.5rem Open Sans;
+                            }
+
+                            h4 {
+                                color: white;
+                                font: 400 .8rem Open Sans;
+                                margin-top: 1vh;
+                            }
+                        }
+                    }
+
+                    .body {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        width: 100%;
+                        height: 70%;
+                        margin-top: 1vh;
+
+                        p {
+                            color: white;
+                            font: 500 1.1rem Open Sans;
+                            font-style: italic;
+                            margin-left: 1vh;
+                        }
+                    }
+                }
+            }
+        }
+
+        .faq {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5vh 2.5vh;
+            background: #e2e2e2;
+
+            h1 {
+                color: #224851;
+                font: 700 2.5rem Open Sans;
+                text-align: center;
+            }
+
+            .wrapper {
+                border: 2px solid #224851;
+                border-radius: .5rem;
+                margin-top: 5vh;
+                padding: 2vh 2vw;
+                width: 100%;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+
+                .question {
+                    display: flex;
+
+                    span {
+                        font: 600 1.3rem Open Sans;
+                        color: #224851;
+                    }
+
+                    .text {
+                        margin-left: 1vh;
+                    }
+                }
+
+                #answer {
+                    font: 400 1rem Open Sans;
+                    color: #224851;
+                    margin-top: 1.5vh;
+                }
+            }
+
+            a {
+                font: 700 1.5rem Open Sans;
+                border-radius: .75vh;
+                padding: 1.5vh;
+                background: #224851;
+                color: white;
+                cursor: pointer;
+                margin-top: 4vh;
+                text-decoration: none;
+            }
         }
     }
 }

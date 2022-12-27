@@ -1,5 +1,5 @@
-import { component$, useSignal, useStylesScoped$ } from '@builder.io/qwik';
-import { Link } from '@builder.io/qwik-city';
+import { component$, useSignal, useStylesScoped$, useTask$ } from '@builder.io/qwik';
+import { Link, useLocation } from '@builder.io/qwik-city';
 
 import styles from './header.scss?inline';
 
@@ -8,6 +8,13 @@ import { Menu } from '../icons/menu';
 export default component$(() => {
   useStylesScoped$(styles);
   const mobileOpen = useSignal(false);
+
+  const loc = useLocation();
+
+  useTask$(({ track }) => {
+    track(() => loc.pathname);
+    if (mobileOpen) mobileOpen.value = false
+  });
 
   const QwikLinkStyles = {
     'margin': '0 2vw',
@@ -20,8 +27,12 @@ export default component$(() => {
     'font': '700 1.2rem Open Sans',
     'color': 'white',
     'text-decoration': 'none',
-    'padding': '3vh'
-  };
+    'padding': '3vh',
+    'width': '100%',
+    'display': 'flex',
+    'justify-content': 'center',
+    'border': '1px solid #224851'
+  }
 
   return (
     <header class="header">

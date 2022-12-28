@@ -11,7 +11,7 @@ export default component$(() => {
       <div class="above-the-fold-content">
         <div class="content">
           <h1>Blog</h1>
-          <h2>Explore conteúdos sobre psicologia, ansiedade, depressão, relacionamentos, estresse, TDAH e muito mais!</h2>
+          <h2>Explore conteúdos sobre psicologia, ansiedade, depressão, relacionamentos, estresse, TDAH e muito mais.</h2>
         </div>
       </div>
 

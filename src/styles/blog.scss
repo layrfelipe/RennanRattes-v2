@@ -16,23 +16,24 @@
             .content {
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
+                align-items: center;
                 width: 100%;
-                padding: 5vh 3vh 0 3vh;
+                padding: 10vh 3vh;
+                background: linear-gradient(to bottom, #0a3541 20%, #e2e2e2);
 
                 h1 {
                     font: 800 3rem Open Sans;
-                    color: #224851;
-                    text-align: left;
+                    color: white;
+                    text-align: center;
                     width: 100%;
                 }
 
                 h2 {
                     font: 500 1.25rem Open Sans;
-                    color: #224851;
+                    color: white;
                     margin-top: 2vh;
                     width: 100%;
-                    text-align: left;
+                    text-align: center;
                 }
             }
         }
@@ -52,7 +53,7 @@
 
                 .featured {
                     background: linear-gradient(to left top, #0a3541 30%, #447a86);
-                    width: 100%;
+                    width: 90%;
                     padding: 2vh;
                     display: flex;
                     flex-direction: column;
@@ -216,6 +217,7 @@
         flex-direction: column;
         align-items: center;
         background: #e2e2e2;
+        background: linear-gradient(to bottom, #0a3541 1%, #e2e2e2 50%);
 
         .above-the-fold-content {
             width: 100%;
@@ -223,27 +225,27 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 6vh 0;
-
+            
             .content {
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
-                width: 80%;
+                align-items: center;
+                width: 100%;
+                padding: 15vh 0 10vh 0;
 
                 h1 {
                     font: 800 3rem Open Sans;
-                    color: #224851;
-                    text-align: left;
+                    color: white;
+                    text-align: center;
                     width: 100%;
                 }
 
                 h2 {
-                    font: 500 1.25rem Open Sans;
-                    color: #224851;
+                    font: 400 1.25rem Open Sans;
+                    color: white;
                     margin-top: 2vh;
-                    width: 100%;
-                    text-align: left;
+                    width: 40%;
+                    text-align: center;
                 }
             }
         }
@@ -252,7 +254,7 @@
             width: 80%;
             display: flex;
             flex-direction: column;
-            padding-bottom: 5vh;
+            padding: 5vh 0;
 
             .first-row {
                 width: 100%;

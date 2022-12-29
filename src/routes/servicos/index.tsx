@@ -21,42 +21,175 @@ export default component$(() => {
     <div class="container">
       <div class="above-the-fold-content">
         <div class="content">
-          <h1>Serviços</h1>
+          <div class="headlines">
+            <h1>Serviços</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum.</h2>
+          </div>
 
-          <div class="services">
-            <div class="service">
-              <div class="image-container">
-                {/* <img /> */}
+
+          <div class="service-container">
+            <div class="image-container-left"></div>
+
+            <div class="content-wrapper">
+              <h2>Terapia individual</h2>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum.</h3>
+
+              <div class="problems">
+                <div class="col">
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Ansiedade</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Depressão</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>TDAH</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Estresse</h4>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Ansiedade</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Depressão</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>TDAH</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Estresse</h4>
+                  </div>                  
+                </div>
               </div>
+            </div>
+          </div>
 
-              <div class="text-wrapper">
-                <h2>Terapia individual</h2>
-                <p>Ressignifique padrões de pensamento num ambiente acolhedor e confidencial (sob sigilo ético-profissional)</p>
-                <Link style={QwikLinkStyles} href="/servicos/individual">Saiba mais</Link>
+
+          <div class="service-container">
+            <div class="content-wrapper">
+              <h2>Terapia para casal</h2>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum.</h3>
+
+              <div class="problems">
+                <div class="col">
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Ansiedade</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Depressão</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>TDAH</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Estresse</h4>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Ansiedade</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Depressão</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>TDAH</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Estresse</h4>
+                  </div>                  
+                </div>
               </div>
             </div>
 
-            <div class="service">
-              <div class="image-container">
-                {/* <img /> */}
-              </div>
+            <div class="image-container-right"></div>
+          </div>
 
-              <div class="text-wrapper">
-                <h2>Terapia para casais</h2>
-                <p>Ressignifique padrões de pensamento num ambiente acolhedor e confidencial (sob sigilo ético-profissional)</p>
-                <Link style={QwikLinkStyles} href="/servicos/casais">Saiba mais</Link>
-              </div>
-            </div>
 
-            <div class="service">
-              <div class="image-container">
-                {/* <img /> */}
-              </div>
+          <div class="service-container">
+            <div class="image-container-left"></div>
 
-              <div class="text-wrapper">
-                <h2>Hipnoterapia</h2>
-                <p>Ressignifique padrões de pensamento num ambiente acolhedor e confidencial (sob sigilo ético-profissional)</p>
-                <Link style={QwikLinkStyles} href="/servicos/hipnose">Saiba mais</Link>
+            <div class="content-wrapper">
+              <h2>Hipnoterapia</h2>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum.</h3>
+
+              <div class="problems">
+                <div class="col">
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Ansiedade</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Depressão</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>TDAH</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Estresse</h4>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Ansiedade</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Depressão</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>TDAH</h4>
+                  </div>
+
+                  <div class="problem">
+                    <div class="icon-square-container"></div>
+                    <h4>Estresse</h4>
+                  </div>                  
+                </div>
               </div>
             </div>
           </div>

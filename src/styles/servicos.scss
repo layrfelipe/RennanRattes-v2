@@ -9,7 +9,7 @@
         .above-the-fold-content {
             width: 100%;
             height: 100%;
-            background: #e2e2e2;
+            background: #0a3541;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -19,51 +19,101 @@
                 flex-direction: column;
                 align-items: flex-start;
                 width: 100%;
-                padding: 5vh 3vh;
+                padding: 10vh 3vh;
 
-                h1 {
-                    font: 800 3rem Open Sans;
-                    color: #224851;
-                }
-
-                .services {
-                    width: 100%;
-                    height: 100%;
+                .headlines {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
 
-                    .service {
+                    h1 {
+                        font: 800 3rem Open Sans;
+                        color: white;
+                        text-align: center;
                         width: 100%;
-                        border-radius: .5rem;
-                        height: 100%;
-                        border: 2px solid #224851;
-                        margin-top: 4vh;
+                    }
 
-                        .image-container {
-                            width: 100%;
-                            height: 20vh;
-                            background: black;
-                            border-top-left-radius: .5rem;
-                            border-top-right-radius: .5rem;
+                    h2 {
+                        font: 400 1.1rem Open Sans;
+                        color: white;
+                        margin-top: 2vh;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+
+                .service-container {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 5vh 0;
+
+                    .image-container-left {
+                        // width: 100%;
+                        // background: black;
+                        // position: relative;
+                        // left: 5vw;
+                        display: none;
+                        visibility: hidden;
+                    }
+                    
+                    .image-container-right {
+                        // width: 100%;
+                        // background: black;
+                        // position: relative;
+                        // right: 5vw;
+                        display: none;
+                        visibility: hidden;
+                    }
+
+                    .content-wrapper {
+                        width: 100%;
+                        background: #e2e2e2;
+                        padding: 2vh;
+
+                        h2 {
+                            color: #224851;
+                            font: 800 2.5rem Open Sans;
                         }
 
-                        .text-wrapper {
+                        h3 {
+                            color: #224851;
+                            font: 400 1rem Open Sans;
+                            width: 75%;
+                            margin-top: 2vh;
+                        }
+
+                        .problems {
+                            width: 100%;
                             display: flex;
-                            flex-direction: column;
-                            align-items: flex-start;
-                            padding: 2vh 1vh;
+                            justify-content: space-between;
+                            margin-top: 2vh;
 
-                            h2 {
-                                margin-top: 2vh;
-                                font: 700 1.5rem Open Sans;
-                                color: #224851;
-                            }
+                            .col {
+                                width: 40%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
 
-                            p {
-                                margin-top: 1.5vh;
-                                font: 400 1rem Open Sans;
-                                color: #224851;
+                                .problem {
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    margin-top: 2vh;
+
+                                    .icon-square-container {
+                                        width: 3vh;
+                                        height: 3vh;
+                                        background: #224851;
+                                    }
+
+                                    h4 {
+                                        color: #224851;
+                                        font: 500 1rem Open Sans;
+                                        margin-left: 1vh;
+                                    }
+                                }
                             }
                         }
                     }
@@ -82,63 +132,108 @@
         background: #e2e2e2;
 
         .above-the-fold-content {
-            width: 80%;
+            width: 100%;
             height: 100%;
-            background: #e2e2e2;
+            background: #0a3541;
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-            padding: 6vh 0;
+            align-items: center;
 
             .content {
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
+                align-items: center;
                 width: 100%;
+                
+                .headlines {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10vh 0 10vh 0;
 
-                h1 {
-                    font: 800 3rem Open Sans;
-                    color: #224851;
-                    margin-bottom: 3vh;
+                    h1 {
+                        font: 800 3rem Open Sans;
+                        color: white;
+                        text-align: center;
+                        width: 100%;
+                    }
+
+                    h2 {
+                        font: 400 1.25rem Open Sans;
+                        color: white;
+                        margin-top: 3vh;
+                        width: 60%;
+                        text-align: center;
+                    }
                 }
 
-                .services {
-                    width: 100%;
-                    height: 100%;
+                .service-container {
+                    width: 75%;
                     display: flex;
-                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 20vh;
 
-                    .service {
-                        max-width: 25%;
-                        border-radius: .5rem;
-                        margin-right: 6vw;
-                        height: 100%;
-                        border: 1px solid #224851;
+                    .image-container-left {
+                        width: 25%;
+                        height: 300px;
+                        background: black;
+                        position: relative;
+                        left: 5vw;
+                    }
+                    
+                    .image-container-right {
+                        width: 25%;
+                        height: 300px;
+                        background: black;
+                        position: relative;
+                        right: 5vw;
+                    }
 
-                        .image-container {
-                            width: 100%;
-                            height: 30vh;
-                            background: black;
-                            border-top-left-radius: .5rem;
-                            border-top-right-radius: .5rem;
+                    .content-wrapper {
+                        width: 75%;
+                        background: #e2e2e2;
+                        padding: 6vh 0 6vh 10vw;
+
+                        h2 {
+                            color: #224851;
+                            font: 800 3rem Open Sans;
                         }
 
-                        .text-wrapper {
+                        h3 {
+                            color: #224851;
+                            font: 400 1rem Open Sans;
+                            width: 75%;
+                        }
+
+                        .problems {
+                            width: 100%;
                             display: flex;
-                            flex-direction: column;
-                            align-items: flex-start;
-                            padding: 0 1vw 2vh 1vw;
+                            justify-content: flex-start;
 
-                            h2 {
-                                margin-top: 2vh;
-                                font: 700 1.5rem Open Sans;
-                                color: #224851;
-                            }
+                            .col {
+                                width: 40%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
 
-                            p {
-                                margin-top: 1.5vh;
-                                font: 400 1rem Open Sans;
-                                color: #224851;
+                                .problem {
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    margin-top: 3vh;
+
+                                    .icon-square-container {
+                                        width: 5vh;
+                                        height: 5vh;
+                                        background: #224851;
+                                    }
+
+                                    h4 {
+                                        color: #224851;
+                                        font: 500 1rem Open Sans;
+                                        margin-left: 1vw;
+                                    }
+                                }
                             }
                         }
                     }

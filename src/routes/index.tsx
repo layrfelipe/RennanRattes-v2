@@ -28,7 +28,7 @@ export default component$(() => {
     <div class="container">
       <div class="above-the-fold-content">
         <div class="left">
-          <h3>Rennan Rattes | Psicólogo - CRP: 05/54980 | +7000h de experiência clínica</h3>
+          <h3>CRP: 05/54980 | +7000h de experiência clínica</h3>
           <h1>Psicólogo na Vila da Penha (Rio de Janeiro)</h1>
           <h2>Na terapia criamos estratégias para diminuir o ritmo de uma mente acelerada pela ansiedade e viver uma vida leve, feliz e cheia de amor próprio.</h2>
           <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Marcar consulta</a>

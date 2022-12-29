@@ -5,6 +5,7 @@
         flex-direction: column;
         align-items: center;
         background: #e2e2e2;
+        background: linear-gradient(to bottom, #0a3541 1%, #e2e2e2 35%);
 
         .above-the-fold-content {
             width: 100%;
@@ -19,7 +20,6 @@
                 align-items: center;
                 width: 100%;
                 padding: 10vh 3vh;
-                background: linear-gradient(to bottom, #0a3541 20%, #e2e2e2);
 
                 h1 {
                     font: 800 3rem Open Sans;
@@ -29,7 +29,7 @@
                 }
 
                 h2 {
-                    font: 500 1.25rem Open Sans;
+                    font: 400 1.25rem Open Sans;
                     color: white;
                     margin-top: 2vh;
                     width: 100%;
@@ -231,7 +231,7 @@
                 flex-direction: column;
                 align-items: center;
                 width: 100%;
-                padding: 15vh 0 10vh 0;
+                padding: 10vh 0 10vh 0;
 
                 h1 {
                     font: 800 3rem Open Sans;
@@ -243,7 +243,7 @@
                 h2 {
                     font: 400 1.25rem Open Sans;
                     color: white;
-                    margin-top: 2vh;
+                    margin-top: 3vh;
                     width: 40%;
                     text-align: center;
                 }

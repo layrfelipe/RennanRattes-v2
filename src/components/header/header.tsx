@@ -25,9 +25,10 @@ export default component$(() => {
   };
 
   const QwikLinkStylesMobile = {
-    'font': '700 1.25rem Open Sans',
+    'font-weight': '700',
+    'font-size': '1.25rem',
     'text-decoration': 'none',
-    'padding': '3vh',
+    'padding': '4vh',
     'width': '100%',
     'display': 'flex',
     'justify-content': 'center',

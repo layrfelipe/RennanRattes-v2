@@ -5,7 +5,7 @@ import styles from './header.scss?inline';
 
 import { Menu } from '../icons/menu';
 
-import { Logo } from '../icons/logo';
+import Logo from "../logo/logo"
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -38,7 +38,7 @@ export default component$(() => {
   return (
     <header class="header">
       <div class="header-main-content">
-        <div class="logo"><Logo /></div>
+        <Logo size={3.5}/>
 
         <nav class="links">
           <Link href='/' style={QwikLinkStyles}>Início</Link>

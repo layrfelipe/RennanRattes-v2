@@ -1,15 +1,15 @@
+@import '../variables.scss';
+
 @media (max-width: 640px) {
     .container {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: #e2e2e2;
 
         .above-the-fold-content {
             width: 100%;
             height: 85vh;
-            background: #0a3541;
             display: flex;
             flex-direction: column;
             padding: 7.5vh 2.5vh 5vh 2.5vh;
@@ -21,30 +21,27 @@
                 width: 100%;
 
                 h3 {
-                    font: 400 1rem Open Sans;
-                    color: white;
                     margin-bottom: 1.5vh;
+                    font-weight: 300;
                 }
 
                 h1 {
-                    font: 800 2rem Open Sans;
-                    color: white;
+                    font-weight: 800;
+                    font-size: 2rem;
                     margin-bottom: 3vh;
                 }
 
                 h2 {
-                    font: 300 1rem Open Sans;
-                    color: white;
+                    font-weight: 300;
                     margin-bottom: 5vh;
                 }
 
                 a {
-                    color: white;
-                    font: 700 1.5rem Open Sans;
+                    font-weight: 700;
+                    font-size: 1.5rem;
                     border: 2px solid white;
-                    border-radius: .5vh;
+                    border-radius: $smBorderRadius;
                     padding: 1vh;
-                    text-decoration: none;
                     align-self: flex-start;
                 }
             }
@@ -57,33 +54,34 @@
                 width: 100%;
                 height: 100%;
                 margin-top: 4vh;
-                background: black;
-
-                img {
-                    max-height: 45vh;
-                }
+                background: url("../assets/desenho.png");
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
             }
         }
 
         .issues {
             width: 100%;
-            background: #e2e2e2;
+            background: $lightGrey;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 5vh 2.5vh;
+            padding: 8vh 2.5vh;
 
-            h1 {
-                color: #224851;
+            h2 {
+                color: $green;
                 text-align: center;
-                font: 700 2rem Open Sans;
+                font-weight: 700;
+                font-size: 2rem;
             }
 
-            h4 {
-                color: #224851;
+            p {
+                color: $green;
                 text-align: center;
-                font: 500 1.2rem Open Sans;
-                margin-top: 2.5vh;
+                font-weight: 500;
+                font-size: 1.2rem;
+                margin-top: 3vh;
                 margin-bottom: 1.5vh;
             }
 
@@ -95,48 +93,49 @@
                 .issue {
                     display: flex;
                     align-items: center;
-                    border: 3px solid #224851;
-                    border-radius: .5rem;
+                    border: 3px solid $green;
+                    border-radius: $smBorderRadius;
                     padding: 2vh;
                     width: 100%;
-                    color: #224851;
+                    color: $green;
                     text-align: left;
                     margin: 2vh 0;
 
-                    h2 {
-                        color: #224851;
+                    h4 {
+                        color: $green;
                         text-align: left;
                         margin: 2vh 0;
-                        font: 600 1rem Open Sans;
                         margin-left: 2vh;
+                        font-weight: 600;
+                        font-size: 1.2rem;
                     }
                 }
             }
 
             h3 {
-                color: #224851;
+                color: $green;
                 text-align: center;
-                font: 500 1.75rem Open Sans;
+                font-weight: 500;
+                font-size: 1.75rem;
                 margin-top: 3vh;
                 text-decoration: underline;
             }
 
             a {
-                background: #0a3541;
-                color: white;
-                font: 700 1.5rem Open Sans;
+                background: $darkGreen;
+                font-weight: 700;
+                font-size: 1.5rem;
                 border: none;
-                border-radius: .5rem;
+                border-radius: $smBorderRadius;
                 margin-top: 3vh;
-                text-decoration: none;
                 text-align: center;
-                padding: 1vh 3vh;
+                padding: 1vh 4vh;
             }
         }
 
         .benefits {
             width: 100%;
-            background: #0a3541;
+            background: $darkGreen;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -144,14 +143,14 @@
             padding: 5vh 2.5vh;
 
             h3 {
-                color: white;
-                font: 300 1.2rem Open Sans;
+                font-weight: 400;
+                font-size: 1.2rem;
                 text-align: center;
             }
 
             h2 {
-                color: white;
-                font: 700 1.85rem Open Sans;
+                font-weight: 700;
+                font-size: 1.85rem;
                 text-align: center;
                 margin-top: 3vh;
             }
@@ -181,8 +180,6 @@
                         height: 100%;
 
                         p {
-                            color: white;
-                            font: 400 1rem Open Sans;
                             width: 80%;
                             margin-left: .75vh;
                         }
@@ -205,8 +202,6 @@
                         height: 100%;
 
                         p {
-                            color: white;
-                            font: 400 1rem Open Sans;
                             width: 80%;
                             margin-left: .75vh;
                         }
@@ -225,39 +220,41 @@
             flex-direction: column;
             align-items: center;
             padding: 6.5vh 2vh;
-            background: #0a3541;
+            background: $darkGreen;
             
             .left {
                 width: 100%;
 
-                h4 {
-                    color: white;
-                    font: 300 1.2rem Open Sans;
+                h3 {
+                    font-weight: 300;
+                    font-size: 1.1rem;
                     font-style: italic;
                 }
 
-                h3 {
-                    color: white;
-                    font: 700 2rem Open Sans;
+                h2 {
+                    font-weight: 700;
+                    font-size: 2.25rem;
                     margin-top: 1vh;
                 }
 
                 p {
-                    color: white;
-                    font: 300 1rem Open Sans;
-                    margin-top: 1vh;
+                    font-weight: 300;
+                    margin-top: 2vh;
                 }
             }
 
             .right {
                 width: 100%;
-                margin-top: 4vh;
-
+                
                 .container {
-                    width: 100%;
-                    height: 100%;
-                    min-height: 40vh;
-                    background: black;
+                    display: flex;
+                    margin-top: 4vh;
+
+                    img {
+                        max-height: 100%;
+                        max-width: 100%;
+                        object-fit: contain;
+                    }
                 }
             }
         }
@@ -269,11 +266,11 @@
             align-items: center;
             justify-content: center;
             padding: 6vh 2vh 0 2vh;
-            background: #0a3541;
+            background: $darkGreen;
             
             h2 {
-                color: white;
-                font: 700 2.5rem Open Sans;
+                font-weight: 700;
+                font-size: 2.5rem;
             }
 
             .depos-container {
@@ -286,11 +283,14 @@
                 padding-top: 4vh;
 
                 .depo {
-                    width: 70%;
+                    width: 90%;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     margin-bottom: 8vh;
+                    border: 1px solid white;
+                    border-radius: $smBorderRadius;
+                    padding: 2vh;
 
                     .header {
                         display: flex;
@@ -302,8 +302,12 @@
 
                         .image-container {
                             width: 30%;
-                            height: 10vh;
-                            background: black;
+
+                            img {
+                                max-width: 100%;
+                                max-height: 100%;
+                                border-radius: $smBorderRadius;
+                            }
                         }
 
                         .description {
@@ -314,13 +318,13 @@
                             justify-content: flex-start;
 
                             h3 {
-                                color: white;
-                                font: 600 1.5rem Open Sans;
+                                font-weight: 600;
+                                font-size: 1.5rem;
                             }
 
-                            h4 {
-                                color: white;
-                                font: 400 .8rem Open Sans;
+                            p {
+                                font-weight: 400;
+                                font-size: .8rem;
                                 margin-top: 1vh;
                             }
                         }
@@ -332,11 +336,9 @@
                         align-items: flex-start;
                         width: 100%;
                         height: 70%;
-                        margin-top: 1vh;
+                        margin-top: 3vh;
 
                         p {
-                            color: white;
-                            font: 500 1.1rem Open Sans;
                             font-style: italic;
                             margin-left: 1vh;
                         }
@@ -350,31 +352,33 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 5vh 2.5vh;
-            background: #e2e2e2;
+            padding: 7.5vh 2.5vh;
+            background: $lightGrey;
 
-            h1 {
-                color: #224851;
-                font: 700 2.5rem Open Sans;
+            h2 {
+                color: $green;
+                font-weight: 700;
+                font-size: 2.5rem;
                 text-align: center;
             }
 
             .wrapper {
-                border: 2px solid #224851;
-                border-radius: .5rem;
+                border: 2px solid $green;
+                border-radius: $smBorderRadius;
                 margin-top: 5vh;
                 padding: 2vh 2vw;
                 width: 100%;
-                cursor: pointer;
                 display: flex;
                 flex-direction: column;
 
                 .question {
                     display: flex;
+                    align-items: center;
 
-                    span {
-                        font: 600 1.3rem Open Sans;
-                        color: #224851;
+                    h3 {
+                        font-weight: 600;
+                        font-size: 1.3rem;
+                        color: $green;
                     }
 
                     .text {
@@ -383,21 +387,18 @@
                 }
 
                 #answer {
-                    font: 400 1rem Open Sans;
-                    color: #224851;
+                    color: $green;
                     margin-top: 1.5vh;
                 }
             }
 
             a {
-                font: 700 1.5rem Open Sans;
-                border-radius: .75vh;
+                font-weight: 700;
+                font-size: 1.5rem;
+                border-radius: $smBorderRadius;
                 padding: 1.5vh;
-                background: #0a3541;
-                color: white;
-                cursor: pointer;
+                background: $darkGreen;
                 margin-top: 4vh;
-                text-decoration: none;
             }
         }
     }
@@ -410,16 +411,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: #e2e2e2;
 
         .above-the-fold-content {
             width: 100%;
-            background: #0a3541;
             height: 80vh;
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
-            padding: 0 5vw;
+            padding: 0 10vw;
 
             .left {
                 display: flex;
@@ -429,31 +428,31 @@
                 margin-top: 15vh;
 
                 h3 {
-                    font: 400 .9rem Open Sans;
-                    color: white;
+                    font-weight: 300;
+                    font-size: .9rem;
                     margin-bottom: 1vh;
                 }
 
                 h1 {
-                    font: 800 3rem Open Sans;
-                    color: white;
+                    font-weight: 800;
+                    font-size: 3rem;
                     margin-bottom: 3vh;
+                    color: $lightGreen;
                 }
 
                 h2 {
-                    font: 400 1.25rem Open Sans;
-                    color: white;
+                    font-weight: 300;
+                    font-size: 1.25rem;
                     margin-bottom: 5vh;
                 }
 
                 a {
-                    color: white;
-                    font: 700 1.5rem Open Sans;
-                    border: 2px solid white;
-                    border-radius: .5rem;
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                    border-radius: $smBorderRadius;
                     padding: 1vw;
-                    text-decoration: none;
                     align-self: flex-start;
+                    border: 2px solid white;
                 }
             }
 
@@ -465,33 +464,34 @@
                 width: 40%;
                 height: 60vh;
                 margin-top: 10vh;
-                background: black;
-
-                img {
-                    max-height: 45vh;
-                }
+                background: url("../assets/desenho.png");
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
             }
         }
 
         .issues {
             width: 100%;
-            background: #e2e2e2;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 8vh 0;
+            padding: 10vh 0;
+            background: $lightGrey;
 
-            h1 {
-                color: #224851;
+            h2 {
+                color: $green;
                 text-align: center;
-                font: 700 2.5rem Open Sans;
+                font-weight: 700;
+                font-size: 2.5rem;
                 width: 85%;
             }
 
-            h4 {
-                color: #224851;
+            p {
+                color: $green;
                 text-align: center;
-                font: 500 1.2rem Open Sans;
+                font-weight: 400;
+                font-size: 1.2rem;
                 width: 75%;
                 margin-top: 2.5vh;
             }
@@ -506,66 +506,64 @@
 
                 .issue {
                     display: flex;
-                    border: 3px solid #224851;
-                    border-radius: .5rem;
+                    border: 3px solid $green;
+                    border-radius: $smBorderRadius;
                     padding: 3vh .5vw;
                     width: 95%;
-                    color: #224851;
+                    color: $green;
                     text-align: left;
                     margin: 2vh 0;
-                    font: 600 1rem Open Sans;
+                    font-weight: 600;
                     padding: 3vh .5vw;
 
-                    h2 {
-                        color: #224851;
+                    h4 {
+                        color: $green;
                         text-align: left;
                         margin: 2vh 0;
-                        font: 600 1rem Open Sans;
+                        font-weight: 600;
                     }
                 }
             }
 
             h3 {
-                color: #224851;
+                color: $green;
                 text-align: center;
-                font: 500 1.75rem Open Sans;
+                font-weight: 500;
+                font-size: 1.75rem;
                 width: 75%;
                 margin-top: 2vh;
                 text-decoration: underline;
             }
 
             a {
-                background: #0a3541;
-                color: white;
-                font: 700 1.5rem Open Sans;
+                background: $green;
+                font-weight: 700;
+                font-size: 1.5rem;
                 border: none;
-                border-radius: .5rem;
+                border-radius: $smBorderRadius;
                 padding: .75vw;
                 margin-top: 4vh;
-                cursor: pointer;
-                text-decoration: none;
                 text-align: center;
             }
         }
 
         .benefits {
             width: 100%;
-            background: #0a3541;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 8vh 0 8vh 0;
+            padding: 10vh 0;
 
             h3 {
-                color: white;
-                font: 300 1.2rem Open Sans;
+                font-weight: 300;
+                font-size: 1.2rem;
                 text-align: center;
             }
 
             h2 {
-                color: white;
-                font: 700 2rem Open Sans;
+                font-weight: 700;
+                font-size: 2rem;
                 text-align: center;
                 margin-top: 2vh;
             }
@@ -596,8 +594,6 @@
                         justify-content: center;
 
                         p {
-                            color: white;
-                            font: 400 1rem Open Sans;
                             margin: 2vh 0;
                         }
                     }
@@ -619,8 +615,6 @@
                         justify-content: center;
 
                         p {
-                            color: white;
-                            font: 400 1rem Open Sans;
                             margin: 2vh 0;
                         }
                     }
@@ -637,40 +631,41 @@
             display: flex;
             justify-content: center;
             padding: 8vh 0;
-            background: #0a3541;
             
             .left {
                 width: 40%;
                 padding: 1vh 2vw;
 
-                h4 {
-                    color: white;
-                    font: 300 1.25rem Open Sans;
+                h3 {
+                    font-weight: 300;
+                    font-size: 1.25rem;
                     font-style: italic;
                 }
 
-                h3 {
-                    color: white;
-                    font: 700 2.5rem Open Sans;
+                h2 {
+                    font-weight: 700;
+                    font-size: 2.5rem;
                     margin-top: 1vh;
                 }
 
                 p {
-                    color: white;
-                    font: 300 1rem Open Sans;
+                    font-weight: 300;
                     margin-top: 1vh;
                 }
             }
 
             .right {
-                width: 40%;
-                height: 65vh;
-                padding: 2vw;
+                max-width: 35%;
+                padding: 2vh;
                 
                 .container {
-                    width: 100%;
-                    height: 100%;
-                    background: black;
+                    display: flex;
+
+                    img {
+                        max-height: 100%;
+                        max-width: 100%;
+                        object-fit: contain;
+                    }
                 }
             }
         }
@@ -682,11 +677,10 @@
             align-items: center;
             justify-content: center;
             padding: 8vh 0;
-            background: #0a3541;
             
             h2 {
-                color: white;
-                font: 700 2.5rem Open Sans;
+                font-weight: 700;
+                font-size: 2.5rem;
             }
 
             .depos-container {
@@ -713,8 +707,12 @@
 
                         .image-container {
                             width: 30%;
-                            height: 10vh;
-                            background: black;
+
+                            img {
+                                max-width: 100%;
+                                max-height: 100%;
+                                border-radius: $smBorderRadius;
+                            }
                         }
 
                         .description {
@@ -725,13 +723,13 @@
                             justify-content: flex-start;
 
                             h3 {
-                                color: white;
-                                font: 600 1.25rem Open Sans;
+                                font-weight: 600;
+                                font-size: 1.4rem;
                             }
 
-                            h4 {
-                                color: white;
-                                font: 400 .6rem Open Sans;
+                            p {
+                                font-size: .7rem;
+                                font-weight: 400;
                                 margin-top: 1vh;
                             }
                         }
@@ -747,8 +745,7 @@
                         padding: 1vh 1vw;
 
                         p {
-                            color: white;
-                            font: 500 1rem Open Sans;
+                            font-weight: 300;
                             font-style: italic;
                         }
                     }
@@ -761,17 +758,18 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 5vh 10vw 8vh 10vw;
-            background: #e2e2e2;
+            padding: 10vh 10vw;
+            background: $lightGrey;
 
-            h1 {
-                color: #224851;
-                font: 700 2.5rem Open Sans;
+            h2 {
+                color: $green;
+                font-weight: 700;
+                font-size: 2.5rem;
             }
 
             .wrapper {
-                border: 2px solid #224851;
-                border-radius: .5rem;
+                border: 2px solid $green;
+                border-radius: $smBorderRadius;
                 margin-top: 5vh;
                 padding: 2vh 2vw;
                 width: 70%;
@@ -781,29 +779,28 @@
 
                 .question {
                     display: flex;
+                    align-items: center;
 
-                    span {
-                        font: 600 1.4rem Open Sans;
-                        color: #224851;
+                    h3 {
+                        font-weight: 600;
+                        font-size: 1.4rem;
+                        color: $green;
                     }
                 }
 
                 #answer {
-                    font: 400 1rem Open Sans;
-                    color: #224851;
+                    color: $green;
                     margin-top: 1.5vh;
                 }
             }
 
             a {
-                font: 700 1.25rem Open Sans;
-                border-radius: .5rem;
+                font-weight: 700;
+                font-size: 1.25rem;
+                border-radius: $smBorderRadius;
                 padding: 1vw;
-                background: #0a3541;
-                color: white;
-                cursor: pointer;
+                background: $darkGreen;
                 margin-top: 4vh;
-                text-decoration: none;
             }
         }
     }

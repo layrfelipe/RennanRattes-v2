@@ -5,6 +5,8 @@ import { Phone } from '../icons/phone';
 import { Email } from '../icons/email';
 import { Loc } from '../icons/loc';
 
+import { Logo } from '../icons/logo';
+
 export default component$(() => {
   useStylesScoped$(styles);
 
@@ -13,7 +15,7 @@ export default component$(() => {
         <div class="footer-main-content">
             <div class="left">
                 <div class="logo-wrapper">
-                    <div class="logo">LOGO</div>
+                    <div class="logo"><Logo /></div>
                 </div>
 
                 <div class="content">

@@ -5,6 +5,8 @@ import styles from './header.scss?inline';
 
 import { Menu } from '../icons/menu';
 
+import { Logo } from '../icons/logo';
+
 export default component$(() => {
   useStylesScoped$(styles);
   const mobileOpen = useSignal(false);
@@ -19,25 +21,23 @@ export default component$(() => {
   const QwikLinkStyles = {
     'margin': '0 2vw',
     'font': '700 1.25rem Open Sans',
-    'color': 'white',
     'text-decoration': 'none',
   };
 
   const QwikLinkStylesMobile = {
-    'font': '700 1.2rem Open Sans',
-    'color': 'white',
+    'font': '700 1.25rem Open Sans',
     'text-decoration': 'none',
     'padding': '3vh',
     'width': '100%',
     'display': 'flex',
     'justify-content': 'center',
-    'border': '1px solid #224851'
+    'border-bottom': '2px solid white',
   }
 
   return (
     <header class="header">
       <div class="header-main-content">
-        <div class="logo">LOGO</div>
+        <div class="logo"><Logo /></div>
 
         <nav class="links">
           <Link href='/' style={QwikLinkStyles}>Início</Link>

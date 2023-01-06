@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 @media (max-width: 640px) {
     .header {
         width: 100%;
@@ -10,14 +12,12 @@
             justify-content: space-between;
             align-items: center;
             padding: 1.5vh 4vw;
-            border-bottom: 3px solid #224851;
-            background: #0a3541;
+            border-bottom: 3px solid $green;
+            background: $darkGreen;
 
             .logo {
-                height: 8vh;
-                width: 8vh;
-                background: black;
-                color: white;
+                height: 6vh;
+                width: 6vh;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -29,12 +29,11 @@
             }
 
             .cta-on-header {
-                color: white;
-                font: 700 .9rem Open Sans;
                 border: 2px solid white;
-                border-radius: .25rem;
+                border-radius: $smBorderRadius;
+                font-weight: 700;
+                font-size: .9rem;
                 padding: 1vh;
-                text-decoration: none;
             }
 
             button {
@@ -48,7 +47,7 @@
             flex-direction: column;
             align-items: center;
             width: 100%;
-            background: #0a3541;
+            background: $middleGreen;
         }
     }
 
@@ -66,14 +65,12 @@
             justify-content: space-around;
             align-items: center;
             padding: 2.5vh 6vw;
-            border-bottom: 3px solid #224851;
-            background: #0a3541;
+            border-bottom: 3px solid $green;
+            background: $darkGreen;
 
             .logo {
                 height: 4vw;
                 width: 4vw;
-                background: black;
-                color: white;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -86,12 +83,10 @@
             }
 
             .cta-on-header {
-                color: white;
-                font: 700 1rem Open Sans;
                 border: 2px solid white;
-                border-radius: .5rem;
+                border-radius: $smBorderRadius;
+                font-weight: 700;
                 padding: .5vw;
-                text-decoration: none;
             }
 
             #burger-menu {

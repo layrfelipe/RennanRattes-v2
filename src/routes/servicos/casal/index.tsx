@@ -1,7 +1,7 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
-import styles from '../../../styles/hipnose.scss?inline';
+import styles from '../../../styles/casal.scss?inline';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -10,7 +10,7 @@ export default component$(() => {
     <div class="container">
       <div class="above-the-fold-content">
         <div class="content">
-          <h1>Hipnoterapia</h1>
+          <h1>Terapia para casal</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h2>
         </div>
       </div>
@@ -54,7 +54,7 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Hipnoterapia',
+  title: 'Terapia para casal',
   meta: [
     {
       name: 'description',

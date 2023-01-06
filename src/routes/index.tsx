@@ -15,6 +15,9 @@ import { Sleep } from '~/components/icons/sleep';
 import { Check } from '~/components/icons/check';
 import { Quotes } from '~/components/icons/quotes';
 
+import psi from '../assets/psi.png';
+import pacient from '../assets/pacient.png';
+
 export default component$(() => {
   useStylesScoped$(styles);
   
@@ -34,30 +37,25 @@ export default component$(() => {
           <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Marcar consulta</a>
         </div>
 
-        <div class="right">
-          <div class="container">
-            {/* <img src={desenho}/> */}
-          </div>
-        </div>
+        <div class="right"></div>
       </div>
 
       <div class="issues">
-        <h1>Você tem passado por algum desses problemas?</h1>
-        <h4>Se você sente que está sozinho, tomado por uma tristeza avassaladora e não consegue cumprir as tarefas diárias, deixa eu te contar uma coisa: você pode viver uma vida muito mais leve e cheia de amor próprio se der uma chance à terapia.</h4>
+        <h2>Você tem passado por algum desses problemas?</h2>
+        <p>Se você sente que está sozinho, tomado por uma tristeza avassaladora e não consegue cumprir as tarefas diárias, deixa eu te contar uma coisa: você pode viver uma vida muito mais leve e cheia de amor próprio se der uma chance à terapia.</p>
         
         <div class="relatable-issues">
-          <div class="issue"><Focus /><h2>Dificuldade para se concentrar e tomar decisões</h2></div>
-          <div class="issue"><Eat /><h2>Alterações no apetite</h2></div>
-          <div class="issue"><Brain /><h2>Mente agitada por pensamentos intrusivos</h2></div>
-          <div class="issue"><Guitar /><h2>Desprazer em atividades que costumavam ser agradáveis</h2></div>
-          <div class="issue"><Sad /><h2>Sentimentos de culpa e inutilidade</h2></div>
-          <div class="issue"><Sleep /><h2>Alterações no sono</h2></div>
+          <div class="issue"><Focus /><h4>Dificuldade para se concentrar e tomar decisões</h4></div>
+          <div class="issue"><Eat /><h4>Alterações no apetite</h4></div>
+          <div class="issue"><Brain /><h4>Mente agitada por pensamentos intrusivos</h4></div>
+          <div class="issue"><Guitar /><h4>Desprazer em atividades que costumavam ser agradáveis</h4></div>
+          <div class="issue"><Sad /><h4>Sentimentos de culpa e inutilidade</h4></div>
+          <div class="issue"><Sleep /><h4>Alterações no sono</h4></div>
         </div>
 
         <h3>Você quer aprender a lidar com seu sofrimento psíquico?</h3>
         <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Eu quero!</a>
       </div>
-
 
       <div class="benefits">
         <h3>Sua vida não precisa ser uma batalha contra a sua mente.</h3>
@@ -114,8 +112,8 @@ export default component$(() => {
 
       <div class="about-me">
         <div class="left">
-          <h4>Quem sou eu</h4>
-          <h3>Psicólogo Rennan Rattes</h3>
+          <h3>Quem sou eu</h3>
+          <h2>Psicólogo Rennan Rattes</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec. Morbi tristique libero vel sapien consectetur, vitae porta erat finibus. Suspendisse magna purus, pulvinar congue urna tristique, sollicitudin lobortis enim.</p>
           <br/>
           <p>Ut sodales turpis tellus, ac facilisis leo molestie sed. Proin quis lorem a magna venenatis venenatis. Vivamus vitae ante nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi nec neque vitae ipsum finibus aliquam. Donec molestie egestas urna, sed condimentum turpis. Fusce a vehicula mi. Mauris ut mattis ipsum, nec interdum tortor. Nulla sit amet massa a urna tincidunt aliquet ut quis enim.</p>
@@ -125,7 +123,7 @@ export default component$(() => {
 
         <div class="right">
           <div class="container">
-
+            <img src={psi} alt=""/>
           </div>
         </div>
       </div>
@@ -137,11 +135,11 @@ export default component$(() => {
           <div class="depo">
             <div class="header">
               <div class="image-container">
-                <img />
+                <img src={pacient} alt="" />
               </div>
               <div class="description">
                 <h3>Jessica Silva</h3>
-                <h4>*Comentário disponível nas avaliações do Google</h4>
+                <p>*Comentário disponível nas avaliações do Google</p>
               </div>
             </div>
 
@@ -154,11 +152,11 @@ export default component$(() => {
           <div class="depo">
             <div class="header">
               <div class="image-container">
-                <img />
+                <img src={pacient} alt="" />
               </div>
               <div class="description">
                 <h3>Jessica Silva</h3>
-                <h4>*Comentário disponível nas avaliações do Google</h4>
+                <p>*Comentário disponível nas avaliações do Google</p>
               </div>
             </div>
 
@@ -171,11 +169,11 @@ export default component$(() => {
           <div class="depo">
             <div class="header">
               <div class="image-container">
-                <img />
+                <img src={pacient} alt="" />
               </div>
               <div class="description">
                 <h3>Jessica Silva</h3>
-                <h4>*Comentário disponível nas avaliações do Google</h4>
+                <p>*Comentário disponível nas avaliações do Google</p>
               </div>
             </div>
 
@@ -188,7 +186,7 @@ export default component$(() => {
       </div>
 
       <div class="faq">
-        <h1>Dúvidas frequentes</h1>
+        <h2>Dúvidas frequentes</h2>
 
         <div class="wrapper" onClick$={() => statusFirst.value = !statusFirst.value}>
           <div class="question">
@@ -198,11 +196,11 @@ export default component$(() => {
             {
               !statusFirst.value && <span><ChevronRight /></span>
             }
-            <span class="text">O que esperar da 1ª sessão de terapia?</span>
+            <h3 class="text">O que esperar da 1ª sessão de terapia?</h3>
           </div>
 
           {
-            statusFirst.value && <span id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</span>
+            statusFirst.value && <p id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</p>
           }
         </div>
 
@@ -214,11 +212,11 @@ export default component$(() => {
             {
               !statusSecond.value && <span><ChevronRight /></span>
             }
-            <span class="text">Quanto tempo dura uma sessão?</span>
+            <h3 class="text">Quanto tempo dura uma sessão?</h3>
           </div>
 
           {
-            statusSecond.value && <span id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</span>
+            statusSecond.value && <p id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</p>
           }
         </div>
 
@@ -230,11 +228,11 @@ export default component$(() => {
             {
               !statusThird.value && <span><ChevronRight /></span>
             }
-            <span class="text">Qual é o valor do tratamento?</span>
+            <h3 class="text">Qual é o valor do tratamento?</h3>
           </div>
 
           {
-            statusThird.value && <span id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</span>
+            statusThird.value && <p id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</p>
           }
         </div>
 
@@ -246,11 +244,11 @@ export default component$(() => {
             {
               !statusFourth.value && <span><ChevronRight /></span>
             }
-            <span class="text">Preciso estar no Rio de Janeiro?</span>
+            <h3 class="text">Preciso estar no Rio de Janeiro?</h3>
           </div>
 
           {
-            statusFourth.value && <span id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</span>
+            statusFourth.value && <p id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</p>
           }
         </div>
 
@@ -262,11 +260,11 @@ export default component$(() => {
             {
               !statusFifth.value && <span><ChevronRight /></span>
             }
-            <span class="text">Você aceita plano de saúde?</span>
+            <h3 class="text">Você aceita plano de saúde?</h3>
           </div>
 
           {
-            statusFifth.value && <span id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</span>
+            statusFifth.value && <p id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.</p>
           }
         </div>
 

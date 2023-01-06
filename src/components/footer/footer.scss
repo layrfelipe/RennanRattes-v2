@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 @media (max-width: 640px) {
     .footer {
         width: 100%;
@@ -9,7 +11,7 @@
             width: 100%;
             display: flex;
             flex-direction: column;
-            background: #0a3541;
+            background: $darkGreen;
             padding: 2.5vh;
 
             .left {
@@ -19,17 +21,14 @@
                 padding: 2vh;
 
                 .logo-wrapper {
-                    height: 100%;
-                    min-height: 15vh;
-                    width: 30%;
-                    background: black;
-                    color: white;
-                    margin-right: 1.5vw;
-
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     align-self: center;
+                    width: 30%;
+                    height: 100%;
+                    min-height: 15vh;
+                    margin-right: 1.5vw;
                 }
 
                 .content {
@@ -40,16 +39,16 @@
 
                     span {
                         color: white;
-                        font: 600 .9rem Open Sans;
+                        font: 600 1rem Open Sans;
                         margin-bottom: 2vh;
                     }
 
                     #impact-phrase {
-                        font: 400 .9rem Open Sans;
+                        font: 400 1rem Open Sans;
                     }
 
                     a {
-                        font: 600 .9rem Open Sans;
+                        font: 600 1rem Open Sans;
                         border: 1px solid white;
                         border-radius: .5rem;
                         padding: 1vh;
@@ -99,9 +98,9 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: #0a3541;
+            background: $darkGreen;
             padding: 3vh 0;
-            border-top: 3px solid #224851;
+            border-top: 3px solid $green;
 
             p {
                 color: white;
@@ -130,7 +129,7 @@
             width: 100%;
             display: flex;
             justify-content: space-around;
-            background: #0a3541;
+            background: $darkGreen;
             padding: 8vh 5vw;
 
             .left {
@@ -139,7 +138,7 @@
                 .logo-wrapper {
                     height: 100%;
                     width: 8vw;
-                    background: black;
+                    // background: black;
                     color: white;
                     margin-right: 1.5vw;
 
@@ -212,9 +211,9 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: #0a3541;
+            background: $darkGreen;
             padding: 1.5vh 0;
-            border-top: 3px solid #224851;
+            border-top: 3px solid $green;
 
             p {
                 color: white;

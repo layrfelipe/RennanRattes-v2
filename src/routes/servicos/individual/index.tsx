@@ -31,15 +31,15 @@ export default component$(() => {
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h4>
 
         <div class="steps-wrapper">
-          <div class="step">Lorem</div>
-          <div class="step">Ipsum</div>
-          <div class="step">Dolor</div>
-          <div class="step">Sit amet</div>
-          <div class="step" id="final">Imperdiet</div>
+          <p class="step">Lorem</p>
+          <p class="step">Ipsum</p>
+          <p class="step">Dolor</p>
+          <p class="step">Sit amet</p>
+          <p class="step" id="final">Imperdiet</p>
         </div>
       </div>
 
-      <div class="question-section" id="dark">
+      <div class="question-section">
         <div class='left'>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
         </div>

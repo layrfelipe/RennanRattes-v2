@@ -12,11 +12,11 @@ export default component$(() => {
 
   const QwikLinkStyles = {
     'text-decoration': 'none',
-    'color': '$green',
-    'font': '600 1.25rem Open Sans',
-    'background': '#cecece',
-    'border': '3px solid $green',
-    'padding': '1vh 5vh',
+    'color': 'white',
+    'font-weight': '600',
+    'font-size': '1.25rem',
+    'background': '#224851',
+    'padding': '1.5vh 5vh',
     'border-radius': '.5rem',
     'margin-top': '5vh',
   };
@@ -208,7 +208,7 @@ export default component$(() => {
           </div>
 
           <div class="final-page-cta">
-            <h3>Tem dúvidas? Fale comigo agora</h3>
+            <p>Tem dúvidas? Fale comigo agora</p>
             <span id="line" />
             <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Entrar em contato</a>
           </div>

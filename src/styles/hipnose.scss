@@ -1,10 +1,11 @@
+@import "../variables.scss";
+
 @media (max-width: 640px) {
     .container {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: #cecece;
 
         .above-the-fold-content {
             width: 100%;
@@ -30,14 +31,15 @@
                 width: 100%;
 
                 h1 {
-                    font: 800 3rem Open Sans;
+                    font-weight: 800;
+                    font-size: 3rem;
                     color: white;
                     text-align: center;
                 }
 
                 h2 {
-                    font: 400 1.2rem Open Sans;
-                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: 400;
                     width: 70%;
                     text-align: center;
                     margin-top: 4vh;
@@ -48,7 +50,7 @@
         .question-section {
             width: 100%;
             background: white;
-            padding: 5vh 0;
+            padding: 7.5vh 0;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -62,7 +64,8 @@
 
                 h3 {
                     color: black;
-                    font: 700 2rem Open Sans;
+                    font-weight: 700;
+                    font-size: 2rem;
                     text-align: center;
                 }
             }
@@ -78,26 +81,21 @@
 
                 h4 {
                     color: black;
-                    font: 400 1.25rem Open Sans;
+                    font-size: 1.25rem;
+                    font-weight: 400;
                     text-align: center;
                 }
 
                 a {
-                    font: 600 1.25rem Open Sans;
+                    font-weight: 600;
+                    font-size: 1.25rem;
                     border: 1px solid white;
-                    border-radius: .5rem;
+                    border-radius: $smBorderRadius;
                     padding: 1.25vh 4vh;
-                    background: $darkGreen;
-                    color: white;
-                    text-decoration: none;
-                    cursor: pointer;
+                    background: $green;
                     margin-top: 3vh;
                 }
             }
-        }
-
-        #dark {
-            background: #cecece;
         }
 
         .steps {
@@ -106,11 +104,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 6vh 0;
+            padding: 7.5vh 0;
             
             h3 {
-                color: white;
-                font: 700 2.5rem Open Sans;
+                font-weight: 700;
+                font-size: 2.5rem;
                 text-align: center;
                 width: 80%;
             }
@@ -123,8 +121,8 @@
             }
 
             h4 {
-                color: white;
-                font: 300 1.2rem Open Sans;
+                font-weight: 300;
+                font-size: 1.2rem;
                 text-align: center;
                 width: 80%;
                 margin-bottom: 2vh;
@@ -139,20 +137,20 @@
 
                 .step {
                     width: 60%;
-                    background: #346873;
+                    background: $middleGreen;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     padding: 2vh 0;
                     margin: 0 2vw;
-                    font: 600 1rem Open Sans;
-                    color: white;
+                    font-weight: 600;
                     margin-top: 3vh;
+                    border-top-right-radius: 2rem;
                 }
 
                 #final {
                     background: white;
-                    color: #346873;
+                    color: $middleGreen;
                 }
             }
         }
@@ -165,7 +163,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: #cecece;
 
         .above-the-fold-content {
             width: 100%;
@@ -190,14 +187,14 @@
                 opacity: .85;
 
                 h1 {
-                    font: 800 4rem Open Sans;
-                    color: white;
+                    font-weight: 800;
+                    font-size: 4rem;
                     text-align: center;
                 }
 
                 h2 {
-                    font: 400 1.2rem Open Sans;
-                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: 400;
                     width: 50%;
                     text-align: center;
                     margin-top: 4vh;
@@ -221,7 +218,8 @@
 
                 h3 {
                     color: black;
-                    font: 700 3rem Open Sans;
+                    font-weight: 700;
+                    font-size: 3rem;
                 }
             }
 
@@ -235,25 +233,21 @@
 
                 h4 {
                     color: black;
-                    font: 400 1.25rem Open Sans;
+                    font-size: 1.25rem;
+                    font-weight: 400;
                 }
 
                 a {
-                    font: 600 1.25rem Open Sans;
+                    font-weight: 600;
+                    font-size: 1.25rem;
                     border: 1px solid white;
-                    border-radius: .5rem;
+                    border-radius: $smBorderRadius;
                     padding: 1.25vh 4vh;
                     background: $darkGreen;
-                    color: white;
-                    text-decoration: none;
                     cursor: pointer;
                     margin-top: 3vh;
                 }
             }
-        }
-
-        #dark {
-            background: #cecece;
         }
 
         .steps {
@@ -262,11 +256,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 6vh 0;
+            padding: 8vh 0;
             
             h3 {
-                color: white;
-                font: 700 2.5rem Open Sans;
+                font-weight: 700;
+                font-size: 2.5rem;
                 text-align: center;
             }
 
@@ -278,8 +272,7 @@
             }
 
             h4 {
-                color: white;
-                font: 300 1rem Open Sans;
+                font-weight: 300;
                 width: 40%;
                 text-align: center;
                 margin-bottom: 4vh;
@@ -294,20 +287,20 @@
 
                 .step {
                     height: 100%;
-                    background: #346873;
+                    background: $middleGreen;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     padding: 2vh 3vw;
                     margin: 0 2vw;
-                    font: 600 1rem Open Sans;
+                    font-weight: 600;
                     color: white;
                     border-top-right-radius: 2rem;
                 }
 
                 #final {
                     background: white;
-                    color: #346873;
+                    color: $middleGreen;
                     padding: 2vh 6vw;
                     border-top-right-radius: 0;
                 }

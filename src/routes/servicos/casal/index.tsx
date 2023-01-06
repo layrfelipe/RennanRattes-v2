@@ -39,7 +39,7 @@ export default component$(() => {
         </div>
       </div>
 
-      <div class="question-section" id="dark">
+      <div class="question-section">
         <div class='left'>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
         </div>

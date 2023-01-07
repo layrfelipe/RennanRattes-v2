@@ -6,6 +6,7 @@ import styles from './header.scss?inline';
 import { Menu } from '../icons/menu';
 
 import Logo from "../logo/logo"
+import Button from "../button/button"
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -41,12 +42,12 @@ export default component$(() => {
         <Logo size={3.5}/>
 
         <nav class="links">
-          <Link href='/' style={QwikLinkStyles}>Início</Link>
-          <Link href='/servicos' style={QwikLinkStyles}>Serviços</Link>
-          <Link href='/blog' style={QwikLinkStyles}>Blog</Link>
+          <Link href='/' style={QwikLinkStyles}><span>Início</span></Link>
+          <Link href='/servicos' style={QwikLinkStyles}><span>Serviços</span></Link>
+          <Link href='/blog' style={QwikLinkStyles}><span>Blog</span></Link>
         </nav>
 
-        <a class="cta-on-header" href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Marcar consulta</a>
+        <Button outline text="Marcar consulta" fontSize={1}/>
 
         <button id="burger-menu" onClick$={() => mobileOpen.value = !mobileOpen.value}><Menu /></button>
       </div>

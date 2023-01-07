@@ -11,8 +11,9 @@ export default component$((props: any) => {
         "display": "flex",
         "align-items": "center",
         "justify-content": "center",
-        "max-width": `${props.size}rem`,
-        "max-height": `${props.size}rem`
+        "width": `${props.size}rem`,
+        "height": `${props.size}rem`,
+        "cursor": "pointer"
     };
 
     return (

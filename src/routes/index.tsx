@@ -18,6 +18,8 @@ import { Quotes } from '~/components/icons/quotes';
 import psi from '../assets/psi.png';
 import pacient from '../assets/pacient.png';
 
+import Button from "../components/button/button"
+
 export default component$(() => {
   useStylesScoped$(styles);
   
@@ -29,12 +31,12 @@ export default component$(() => {
   
   return (
     <div class="container">
-      <div class="above-the-fold-content">
+      <div class="above-the-fold-container">
         <div class="left">
           <h3>CRP: 05/54980 | +7000h de experiência clínica</h3>
           <h1>Psicólogo na Vila da Penha (Rio de Janeiro)</h1>
           <h2>Na terapia criamos estratégias para diminuir o ritmo de uma mente acelerada pela ansiedade e viver uma vida leve, feliz e cheia de amor próprio.</h2>
-          <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Marcar consulta</a>
+          <Button outline text="Marcar consulta" fontSize={1.5}/>
         </div>
 
         <div class="right"></div>
@@ -54,7 +56,7 @@ export default component$(() => {
         </div>
 
         <h3>Você quer aprender a lidar com seu sofrimento psíquico?</h3>
-        <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Eu quero!</a>
+        <Button text="Eu quero!" fontSize={1.5} outline={false} />
       </div>
 
       <div class="benefits">
@@ -252,7 +254,7 @@ export default component$(() => {
           }
         </div>
 
-        <div class="wrapper" onClick$={() => statusFifth.value = !statusFifth.value}>
+        <div class="wrapper" onClick$={() => statusFifth.value = !statusFifth.value} id="last-question">
           <div class="question">
             {
               statusFifth.value && <span><ChevronDown /></span>
@@ -268,7 +270,7 @@ export default component$(() => {
           }
         </div>
 
-        <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Entrar em contato</a>
+        <Button text="Entrar em contato" outline={false} fontSize={1.5} />
       </div>
     </div>
   );

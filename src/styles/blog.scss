@@ -8,8 +8,10 @@
         align-items: center;
         background: #cecece;
         background: linear-gradient(to bottom, $darkGreen 1%, #cecece 35%);
+        border-top: 3px solid $green;
+        padding-bottom: 5vh;
 
-        .above-the-fold-content {
+        .above-the-fold-container {
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -21,7 +23,7 @@
                 flex-direction: column;
                 align-items: center;
                 width: 100%;
-                padding: 8vh 3vh;
+                padding: 8vh 3vh 5vh 3vh;
 
                 h1 {
                     font-weight: 800;
@@ -31,8 +33,8 @@
                 }
 
                 h2 {
-                    font: 400 1.25rem Open Sans;
-                    color: white;
+                    font-size: 1rem;
+                    font-weight: 400;
                     margin-top: 2vh;
                     width: 80%;
                     text-align: center;
@@ -54,7 +56,7 @@
                 margin-top: 4vh;
 
                 .featured {
-                    background: linear-gradient(to left top, $darkGreen 30%, #447a86);
+                    background: linear-gradient(to left top, $darkGreen 30%, $middleGreen);
                     width: 90%;
                     padding: 2vh;
                     display: flex;
@@ -70,7 +72,7 @@
 
                         h3 {
                             color: white;
-                            font: 500 .9rem Open Sans;
+                            font: 300 .9rem Open Sans;
                         }
 
                         h2 {
@@ -128,7 +130,7 @@
         
                             h3 {
                                 color: $green;
-                                font: 700 .9rem Open Sans;
+                                font: 400 .9rem Open Sans;
                                 margin-top: 1.5vh;
                             }
         
@@ -186,7 +188,7 @@
         
                             h3 {
                                 color: $green;
-                                font: 700 .9rem Open Sans;
+                                font: 400 .9rem Open Sans;
                                 margin-top: 1.5vh;
                             }
         
@@ -221,8 +223,9 @@
         background: #cecece;
         background: linear-gradient(to bottom, $darkGreen 1%, #cecece 95%);
         padding: 8vh 0;
+        border-top: 3px solid $green;
 
-        .above-the-fold-content {
+        .above-the-fold-container {
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -265,7 +268,7 @@
                 justify-content: space-between;
 
                 .featured {
-                    background: linear-gradient(to left top, $darkGreen 30%, #447a86);
+                    background: linear-gradient(to left top, $darkGreen 30%, $middleGreen);
                     width: 65%;
                     padding: 2vw;
                     display: flex;
@@ -274,6 +277,7 @@
                     height: 50vh;
                     border-radius: .5rem;
                     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+                    cursor: pointer;
 
                     .top {
                         display: flex;
@@ -316,6 +320,7 @@
                     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
                     border-bottom-right-radius: .5rem;
                     border-bottom-left-radius: .5rem;
+                    cursor: pointer;
 
                     .image-wrapper {
                         height: 50%;

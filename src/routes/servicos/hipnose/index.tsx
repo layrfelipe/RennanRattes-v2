@@ -8,7 +8,7 @@ export default component$(() => {
   
   return (
     <div class="container">
-      <div class="above-the-fold-content">
+      <div class="above-the-fold-container">
         <div class="content">
           <h1>Hipnoterapia</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h2>

@@ -9,7 +9,7 @@ export default component$(() => {
       <main>
         <Header />
         <section>
-          <Slot />
+          <Slot/>
           <Whatsapp />
         </section>
       </main>

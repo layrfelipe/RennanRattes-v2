@@ -5,7 +5,8 @@ import { Phone } from '../icons/phone';
 import { Email } from '../icons/email';
 import { Loc } from '../icons/loc';
 
-import Logo from "../logo/logo"
+import Logo from "../logo/logo";
+import Button from "../button/button";
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -20,8 +21,8 @@ export default component$(() => {
 
                 <div class="content">
                     <h3>Rennan Rattes | Psicólogo - CRP: 05/54980</h3>
-                    <h4 id="impact-phrase">Frasezinha de efeito</h4>
-                    <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Marcar consulta</a>
+                    <h4 id="impact-phrase">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                    <Button text="Marcar consulta" outline fontSize={1}/>
                 </div>
             </div>
 

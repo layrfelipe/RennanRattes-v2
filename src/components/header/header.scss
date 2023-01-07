@@ -12,7 +12,6 @@
             justify-content: space-between;
             align-items: center;
             padding: 3vh 4vw;
-            border-bottom: 3px solid $green;
             background: $darkGreen;
 
             .logo {
@@ -26,14 +25,6 @@
             .links {
                 display: none;
                 visibility: hidden;
-            }
-
-            .cta-on-header {
-                border: 2px solid white;
-                border-radius: $smBorderRadius;
-                font-weight: 700;
-                font-size: .9rem;
-                padding: 1vh;
             }
 
             button {
@@ -65,7 +56,6 @@
             justify-content: space-around;
             align-items: center;
             padding: 2.5vh 6vw;
-            border-bottom: 3px solid $green;
             background: $darkGreen;
 
             .logo {
@@ -80,13 +70,14 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-            }
 
-            .cta-on-header {
-                border: 2px solid white;
-                border-radius: $smBorderRadius;
-                font-weight: 700;
-                padding: .5vw;
+                span {
+                    padding-bottom: 2vh;
+                }
+
+                span:hover {
+                    border-bottom: 2px solid white;
+                }
             }
 
             #burger-menu {

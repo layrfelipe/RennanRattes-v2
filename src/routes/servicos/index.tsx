@@ -15,7 +15,7 @@ export default component$(() => {
     'color': 'white',
     'font-weight': '600',
     'font-size': '1.25rem',
-    'background': '#224851',
+    'background': '#0a3541',
     'padding': '1.5vh 5vh',
     'border-radius': '.5rem',
     'margin-top': '5vh',

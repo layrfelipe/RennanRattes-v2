@@ -18,6 +18,7 @@ export default component$((props: any) => {
         "padding": "1vh 1rem",
         "width": "fit-content",
         "background": "#0a3541",
+        "box-shadow": "4px 4px 4px rgba(0, 0, 0, 0.3)"
     };
 
     return (

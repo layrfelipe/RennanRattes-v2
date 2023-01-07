@@ -19,6 +19,7 @@ export default component$(() => {
     'padding': '1.5vh 5vh',
     'border-radius': '.5rem',
     'margin-top': '5vh',
+    "box-shadow": "4px 4px 4px rgba(0, 0, 0, 0.3)"
   };
   
   return (

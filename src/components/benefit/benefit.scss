@@ -1,0 +1,28 @@
+@media (max-width: 640px) {
+    .benefit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 2vh 0;
+        height: 100%;
+
+        p {
+            width: 80%;
+            margin-left: .75vh;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .benefit {
+        align-self: flex-start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            margin: 2vh 0;
+        }
+    }
+}

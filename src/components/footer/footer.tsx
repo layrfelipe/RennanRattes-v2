@@ -6,7 +6,7 @@ import { Email } from '../icons/email';
 import { Loc } from '../icons/loc';
 
 import Logo from "../logo/logo";
-import Button from "../button/button";
+import Button from "../goToWhatsappButton/goToWhatsappButton";
 
 export default component$(() => {
   useStylesScoped$(styles);

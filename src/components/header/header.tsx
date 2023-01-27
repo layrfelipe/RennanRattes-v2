@@ -6,7 +6,7 @@ import styles from './header.scss?inline';
 import { Menu } from '../icons/menu';
 
 import Logo from "../logo/logo"
-import Button from "../button/button"
+import GoToWhatsappButton from "../goToWhatsappButton/goToWhatsappButton"
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -47,7 +47,7 @@ export default component$(() => {
           <Link href='/blog' style={QwikLinkStyles}><span>Blog</span></Link>
         </nav>
 
-        <Button outline text="Marcar consulta" fontSize={1}/>
+        <GoToWhatsappButton outline text="Marcar consulta" fontSize={1}/>
 
         <button id="burger-menu" onClick$={() => mobileOpen.value = !mobileOpen.value}><Menu /></button>
       </div>

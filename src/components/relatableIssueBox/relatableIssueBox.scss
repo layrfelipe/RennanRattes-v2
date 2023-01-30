@@ -4,11 +4,11 @@
     .issue {
         display: flex;
         align-items: center;
-        border: 3px solid $green;
+        border: 3px solid $darkGreen;
         border-radius: $smBorderRadius;
         padding: 2vh;
         width: 100%;
-        color: $green;
+        color: $darkGreen;
         text-align: left;
         margin: 2vh 0;
 
@@ -27,16 +27,16 @@
     .issue {
         display: flex;
         align-items: center;
-        border: 3px solid $green;
+        border: 3px solid $darkGreen;
         border-radius: $smBorderRadius;
         padding: 2vh;
         width: 100%;
-        color: $green;
+        color: $darkGreen;
         text-align: left;
         margin: 2vh 0;
 
         h4 {
-            color: $green;
+            color: $darkGreen;
             text-align: left;
             margin: 2vh 0;
             margin-left: 2vh;

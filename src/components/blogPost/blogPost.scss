@@ -1,0 +1,110 @@
+@import "../../variables.scss";
+
+@media (max-width: 640px) {
+    .post {
+        width: 100%;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+        border-bottom-right-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+        margin-top: 4vh;
+
+        .image-wrapper {
+            height: 20vh;
+            width: 100%;
+            background: linear-gradient(to left top, $darkGreen 30%, $middleGreen);
+            border-top-right-radius: .5rem;
+            border-top-left-radius: .5rem;
+        }
+
+        .text {
+            width: 100%;
+            background: #cecece;
+            border-bottom-right-radius: .5rem;
+            border-bottom-left-radius: .5rem;
+
+            .top {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 2vh;
+
+                h3 {
+                    color: $darkGreen;
+                    font: 400 .9rem Open Sans;
+                    margin-top: 1.5vh;
+                }
+
+                h2 {
+                    color: $darkGreen;
+                    font: 700 1.25rem Open Sans;
+                    width: 90%;
+                    margin-top: 2vh;
+                }
+            }
+
+            .bottom {
+                padding: 2vh;
+
+                h4 {
+                    color: $darkGreen;
+                    font: 500 .85rem Open Sans;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .post {
+        width: 100%;
+        height: 50vh;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+        border-bottom-right-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+        cursor: pointer;
+
+        .image-wrapper {
+            height: 50%;
+            width: 100%;
+            background: linear-gradient(to left top, $darkGreen 30%, $middleGreen);
+            border-top-right-radius: .5rem;
+            border-top-left-radius: .5rem;
+        }
+
+        .text {
+            width: 100%;
+            height: 50%;
+            background: #cecece;
+            border-bottom-right-radius: .5rem;
+            border-bottom-left-radius: .5rem;
+
+            .top {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1vw;
+
+                h3 {
+                    color: $darkGreen;
+                    font: 700 .9rem Open Sans;
+                }
+
+                h2 {
+                    color: $darkGreen;
+                    font: 700 1.25rem Open Sans;
+                    width: 90%;
+                    margin-top: 1vh;
+                }
+            }
+
+            .bottom {
+                padding-left: 1vw;
+
+                h4 {
+                    color: $darkGreen;
+                    font: 500 .85rem Open Sans;
+                }
+            }
+        }
+    }
+}

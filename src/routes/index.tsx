@@ -11,16 +11,10 @@ import GoToWhatsappButton from "../components/goToWhatsappButton/goToWhatsappBut
 import RelatableIssueBox from '~/components/relatableIssueBox/relatableIssueBox';
 import Benefit from '~/components/benefit/benefit';
 import Depo from '~/components/depo/depo';
-import Faq from '~/components/faq/faq';
+import Faq from '~/components/faq/faq'
 
 export default component$(() => {
   useStylesScoped$(styles);
-  
-  // const statusFirst = useSignal(false);
-  // const statusSecond = useSignal(false);
-  // const statusThird = useSignal(false);
-  // const statusFourth = useSignal(false);
-  // const statusFifth = useSignal(false);
   
   return (
     <div class="container">

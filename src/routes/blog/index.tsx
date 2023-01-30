@@ -1,13 +1,13 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
-import { DocumentHead, useNavigate } from '@builder.io/qwik-city';
+import { DocumentHead } from '@builder.io/qwik-city';
 
 import styles from '../../styles/blog.scss?inline';
+
+import BlogPost from '~/components/blogPost/blogPost'
 
 export default component$(() => {
   useStylesScoped$(styles);
 
-  const nav = useNavigate();
-  
   return (
     <div class="container">
       <div class="above-the-fold-container">
@@ -18,90 +18,12 @@ export default component$(() => {
       </div>
 
       <div class="posts-container">
-        <div class="first-row">
-          <div class="featured" onClick$={() => { nav.path = "/blog/destaque"}}>
-            <div class="top">
-              <h3>Tópico</h3>
-              <h2>Título bem interessante para um blog post pika das galáticas</h2>
-            </div>
-
-            <div class="bottom">
-              <h4>01/12/2022</h4>
-              <span>EM DESTAQUE</span>
-            </div>
-          </div>
-
-          <div class="second-post" onClick$={() => { nav.path = "/blog/destaque"}}>
-            <div class="image-wrapper" />
-
-            <div class="text">
-              <div class="top">
-                <h3>Tópico</h3>
-                <h2>Título bem interessante para um blog post pika das galáticas</h2>
-              </div>
-
-              <div class="bottom">
-                <h4>01/12/2022</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="blog-grid">
-          
-          <div class="post" onClick$={() => { nav.path = "/blog/destaque"}}>
-            <div class="image-wrapper">
-              
-            </div>
-
-            <div class="text">
-              <div class="top">
-                <h3>Tópico</h3>
-                <h2>Título bem interessante para um blog post pika das galáticas</h2>
-              </div>
-
-              <div class="bottom">
-                <h4>01/12/2022</h4>
-              </div>
-            </div>
-          </div>
-
-        
-          <div class="post" onClick$={() => { nav.path = "/blog/destaque"}}>
-            <div class="image-wrapper">
-              
-            </div>
-
-            <div class="text">
-              <div class="top">
-                <h3>Tópico</h3>
-                <h2>Título bem interessante para um blog post pika das galáticas</h2>
-              </div>
-
-              <div class="bottom">
-                <h4>01/12/2022</h4>
-              </div>
-            </div>
-          </div>
-
-        
-          <div class="post" onClick$={() => { nav.path = "/blog/destaque"}}>
-            <div class="image-wrapper">
-              
-            </div>
-
-            <div class="text">
-              <div class="top">
-                <h3>Tópico</h3>
-                <h2>Título bem interessante para um blog post pika das galáticas</h2>
-              </div>
-
-              <div class="bottom">
-                <h4>01/12/2022</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+          <BlogPost path="/blog/post1" title="Título bem interessante para um blog post pika das galáticas" topic="Tópico X" date="29/01/2023"/>
+          <BlogPost path="/blog/post2" title="Título bem interessante para um blog post pika das galáticas" topic="Tópico X" date="29/01/2023"/>
+          <BlogPost path="/blog/post3" title="Título bem interessante para um blog post pika das galáticas" topic="Tópico X" date="29/01/2023"/>
+          <BlogPost path="/blog/post4" title="Título bem interessante para um blog post pika das galáticas" topic="Tópico X" date="29/01/2023"/>
+          <BlogPost path="/blog/post5" title="Título bem interessante para um blog post pika das galáticas" topic="Tópico X" date="29/01/2023"/>
+          <BlogPost path="/blog/post6" title="Título bem interessante para um blog post pika das galáticas" topic="Tópico X" date="29/01/2023"/>
       </div>
     </div>
   );

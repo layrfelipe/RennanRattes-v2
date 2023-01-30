@@ -1,15 +1,12 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 
-import styles from '../../../styles/destaque.scss?inline';
+import styles from '../../../styles/blogPost.scss?inline';
 
 export default component$(() => {
     useStylesScoped$(styles);   
 
     return (
         <div class="container">
-            <div class="above-the-fold-container">
-                <div class="over-layer" />
-            </div>
 
             <div class="content">
                 <div class="headers">

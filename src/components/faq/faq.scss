@@ -2,7 +2,7 @@
 
 @media (max-width: 640px) {
     .wrapper {
-        border: 2px solid $green;
+        border: 2px solid $darkGreen;
         border-radius: $smBorderRadius;
         margin-top: 5vh;
         padding: 2vh 2vw;
@@ -17,7 +17,7 @@
             h3 {
                 font-weight: 600;
                 font-size: 1.3rem;
-                color: $green;
+                color: $darkGreen;
             }
 
             .text {
@@ -26,7 +26,7 @@
         }
 
         #answer {
-            color: $green;
+            color: $darkGreen;
             margin-top: 1.5vh;
         }
     }
@@ -34,7 +34,7 @@
 
 @media (min-width: 1200px) {
     .wrapper {
-        border: 2px solid $green;
+        border: 2px solid $darkGreen;
         border-radius: $smBorderRadius;
         margin-top: 5vh;
         padding: 2vh 2vw;
@@ -50,12 +50,12 @@
             h3 {
                 font-weight: 600;
                 font-size: 1.4rem;
-                color: $green;
+                color: $darkGreen;
             }
         }
 
         #answer {
-            color: $green;
+            color: $darkGreen;
             margin-top: 1.5vh;
         }
     }    

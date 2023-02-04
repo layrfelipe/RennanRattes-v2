@@ -34,7 +34,7 @@ export default component$(() => {
           <div class="final-page-cta">
             <p>Tem dúvidas? Fale comigo agora</p>
             <span id="line" />
-            <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">Entrar em contato</a>
+            <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20estou%20precisando%20de%20ajuda%20psicológica" target="_blank" rel="noreferrer">Entrar em contato</a>
           </div>
         </div>
       </div>

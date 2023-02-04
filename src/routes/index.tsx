@@ -31,7 +31,6 @@ export default component$(() => {
 
       <div class="issues">
         <h2>Você tem passado por algum desses problemas?</h2>
-        <p>Se você sente que está sozinho, tomado por uma tristeza avassaladora e não consegue cumprir as tarefas diárias, deixa eu te contar uma coisa: você pode viver uma vida muito mais leve e cheia de amor próprio se der uma chance à terapia.</p>
         
         <div class="relatable-issues">
           <RelatableIssueBox icon="focus" text="Dificuldade para se concentrar e tomar decisões"/>
@@ -42,12 +41,13 @@ export default component$(() => {
           <RelatableIssueBox icon="sleep" text="Alterações no sono"/>
         </div>
 
+        <p>Se você sente que está sozinho, tomado por uma tristeza avassaladora e não consegue cumprir as tarefas diárias, deixa eu te contar uma coisa: você pode viver uma vida muito mais leve e cheia de amor próprio se der uma chance à terapia.</p>
+
         <h3>Você quer aprender a lidar com seu sofrimento psíquico?</h3>
         <GoToWhatsappButton text="Eu quero!" fontSize={1.5} outline={false} />
       </div>
 
       <div class="benefits">
-        <h3>Sua vida não precisa ser uma batalha contra a sua mente.</h3>
         <h2>Veja os principais benefícios da terapia:</h2>
 
         <div class="container">
@@ -66,18 +66,19 @@ export default component$(() => {
           </div>
         </div>
 
-        <h3 id="text-over-button">Vamos juntos recuperar seu bem-estar e a sua autoestima para viver uma vida plena!</h3>
+        <h3 id="text-over-button">Vamos juntos recuperar sua autoestima para viver uma vida plena!</h3>
       </div>
 
       <div class="about-me">
         <div class="left">
           <h3>Quem sou eu</h3>
           <h2>Psicólogo Rennan Rattes</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec. Morbi tristique libero vel sapien consectetur, vitae porta erat finibus. Suspendisse magna purus, pulvinar congue urna tristique, sollicitudin lobortis enim.</p>
-          <br/>
-          <p>Ut sodales turpis tellus, ac facilisis leo molestie sed. Proin quis lorem a magna venenatis venenatis. Vivamus vitae ante nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi nec neque vitae ipsum finibus aliquam. Donec molestie egestas urna, sed condimentum turpis. Fusce a vehicula mi. Mauris ut mattis ipsum, nec interdum tortor. Nulla sit amet massa a urna tincidunt aliquet ut quis enim.</p>
+          <p>Sou graduado em Psicologia pela Universidade Veiga de Almeida, no Rio de Janeiro. Escolhi dedicar minha vida à terapia clínica pois acredito que posso oferecer qualidade de vida e saúde mental para os meus clientes.</p>
           <br />
-          <p>Suspendisse potenti. Mauris in rutrum magna. Sed vehicula et diam a accumsan. Nam maximus sagittis orci eget vulputate. Suspendisse sed convallis ante, hendrerit semper dolor. Integer volutpat metus ac metus viverra, hendrerit ullamcorper dui fermentum. Suspendisse potenti.</p>
+          <p>Não é minha missão fazer julgamentos, mas sim trazer reflexões que te ajudarão a encontrar repostas e motivação para agir melhor. Sei que não é fácil começar, mas fazer terapia comigo certamente será uma das melhores decisões da sua vida.</p>
+          <br />
+          <p id="last">Envie uma mensagem agora e tire todas as suas dúvidas antes de marcarmos uma sessão.</p>
+          <GoToWhatsappButton text="Entrar em contato" outline={true} fontSize={1.5}/>
         </div>
 
         <div class="right">
@@ -88,12 +89,12 @@ export default component$(() => {
       </div>
 
       <div class="depos">
-        <h2>Depoimentos</h2>
+        <h2>Feedbacks</h2>
 
         <div class="depos-container">
           <Depo author="Jessica Silva" photo={pacient} text="Posso dizer que seu profissionalismo comigo durante as sessões foi uma das melhores coisas que já aconteceram na minha vida..."/>
-          <Depo author="Jessica Silva" photo={pacient} text="Posso dizer que seu profissionalismo comigo durante as sessões foi uma das melhores coisas que já aconteceram na minha vida..."/>
-          <Depo author="Jessica Silva" photo={pacient} text="Posso dizer que seu profissionalismo comigo durante as sessões foi uma das melhores coisas que já aconteceram na minha vida..."/>
+          <Depo author="Mario Fernando" photo={pacient} text="Agradeci muito a ele, resolveu meus problemas! Muito bom!"/>
+          <Depo author="Adriana Pina" photo={pacient} text="Hoje me sinto muito mais confiante para lidar com minhas questões emocionais. Obrigado por tudo, Rennan!"/>
         </div>
       </div>
 

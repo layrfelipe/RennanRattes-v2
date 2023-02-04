@@ -23,7 +23,7 @@ export default component$((props: any) => {
 
     return (
         <>
-            <a style={props.outline ? QwikOutlineButtonStyles : QwikButtonStyles } href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20quero%20marcar%20uma%20consulta." target="_blank" rel="noreferrer">{props.text}</a>
+            <a style={props.outline ? QwikOutlineButtonStyles : QwikButtonStyles } href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20estou%20precisando%20de%20ajuda%20psicológica" target="_blank" rel="noreferrer">{props.text}</a>
         </>
     );
 });

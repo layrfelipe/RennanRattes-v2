@@ -5,12 +5,11 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 import styles from '../styles/home.scss?inline';
 
 import psi from '../assets/psi.png';
-import pacient from '../assets/pacient.png';
 
 import GoToWhatsappButton from "../components/goToWhatsappButton/goToWhatsappButton"
 import RelatableIssueBox from '~/components/relatableIssueBox/relatableIssueBox';
 import Benefit from '~/components/benefit/benefit';
-import Depo from '~/components/depo/depo';
+import { Quotes } from '~/components/icons/quotes';
 import Faq from '~/components/faq/faq'
 
 export default component$(() => {
@@ -92,20 +91,55 @@ export default component$(() => {
         <h2>Feedbacks</h2>
 
         <div class="depos-container">
-          <Depo author="Jessica Silva" photo={pacient} text="Posso dizer que seu profissionalismo comigo durante as sessões foi uma das melhores coisas que já aconteceram na minha vida..."/>
-          <Depo author="Mario Fernando" photo={pacient} text="Agradeci muito a ele, resolveu meus problemas! Muito bom!"/>
-          <Depo author="Adriana Pina" photo={pacient} text="Hoje me sinto muito mais confiante para lidar com minhas questões emocionais. Obrigado por tudo, Rennan!"/>
+          <div class="depo">
+            <div class="header">
+              <div class="description">
+                  <h3>J.S., 32 anos</h3>
+              </div>
+            </div>
+
+            <div class="body">
+                <Quotes/>
+                <p>Posso dizer que seu profissionalismo comigo durante as sessões foi uma das melhores coisas que já aconteceram na minha vida...</p>
+            </div>
+          </div>
+
+          <div class="depo">
+            <div class="header">
+              <div class="description">
+                  <h3>M. F., 28 anos</h3>
+              </div>
+            </div>
+
+            <div class="body">
+                <Quotes/>
+                <p>Desde o início me senti confortável para falar dos meus conflitos internos, é um espaço que não me sinto julgada de maneira alguma.</p>
+            </div>
+          </div>
+
+          <div class="depo">
+            <div class="header">
+              <div class="description">
+                  <h3>A.P., 47 anos</h3>
+              </div>
+            </div>
+
+            <div class="body">
+                <Quotes/>
+                <p>Hoje me sinto muito mais confiante para lidar com minhas questões emocionais. Obrigado por tudo, Rennan!</p>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="faq">
         <h2>Dúvidas frequentes</h2>
 
-        <Faq question="O que esperar da 1ª sessão de terapia?" answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec."/>
-        <Faq question="Quanto tempo dura uma sessão?" answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec."/>
-        <Faq question="Qual é o valor do tratamento?" answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec."/>
-        <Faq question="Preciso estar no Rio de Janeiro?" answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec."/>
-        <Faq question="Você aceita plano de saúde?" answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec."/>
+        <Faq question="O que esperar da 1ª sessão de terapia?" answer="Uma sessão para nos conhecermos. Explicarei minha abordagem terapêutica, tirarei todas as suas dúvidas e ouvirei as demandas que fizeram você buscar ajuda profissional. Não espere que resolvamos todos os seus problemas logo de início, mas garanto que você se sentirá acolhido(a) o tempo todo."/>
+        <Faq question="Quanto tempo dura uma sessão?" answer="50 minutos."/>
+        <Faq question="Qual é o valor do tratamento?" answer="Por seguir um código de ética, não posso utilizar preços para divulgar meu trabalho. Por favor entre em contato para saber mais. Garanto que não se arrependerá."/>
+        <Faq question="Preciso estar no Rio de Janeiro?" answer="Não necessariamente. Atendo presencialmente e online. Da maneira que você puder e se sentir mais confortável."/>
+        <Faq question="Você aceita plano de saúde?" answer="Não, mas há a possibilidade de emitir recibos para solicitações de reembolso (que na maioria das vezes são aceitos)."/>
 
         <span id="add-margin"/>
         <GoToWhatsappButton text="Entrar em contato" outline={false} fontSize={1.5}/>

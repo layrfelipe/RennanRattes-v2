@@ -12,9 +12,9 @@ import Service from '~/components/service/service'
 export default component$(() => {
   useStylesScoped$(styles);
 
-  const individualIssues = ["Ansiedade", "Depressão", "Estresse", "TDAH", "Ansiedade", "Depressão", "Estresse", "TDAH"]
-  const coupleIssues = ["Ansiedade", "Depressão", "Estresse", "TDAH", "Ansiedade", "Depressão", "Estresse", "TDAH"]
-  const hypnosisIssues = ["Ansiedade", "Depressão", "Estresse", "TDAH", "Ansiedade", "Depressão", "Estresse", "TDAH"]
+  const individualIssues = ["Ansiedade", "Depressão", "Estresse", "TDAH", "Solidão"]
+  const coupleIssues = ["Brigas frequentes", "Problemas sexuais", "Falta de diálogo", "Traições", "Vida financeira"]
+  const hypnosisIssues = ["Fobias", "Vícios", "Depressão", "Transtornos alimentares", "Insônia", "Timidez"]
   
   return (
     <div class="container">
@@ -29,7 +29,7 @@ export default component$(() => {
 
           <Service image={casal} inverted={true} issues={coupleIssues} title="Terapia para casal" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum." />
 
-          <Service image={hipnose} issues={hypnosisIssues} title="Terapia individual" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum." />
+          <Service image={hipnose} issues={hypnosisIssues} title="Hipnoterapia" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum." />
 
           <div class="final-page-cta">
             <p>Tem dúvidas? Fale comigo agora</p>

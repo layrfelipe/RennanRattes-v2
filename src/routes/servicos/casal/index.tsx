@@ -11,7 +11,7 @@ export default component$(() => {
       <div class="above-the-fold-container">
         <div class="content">
           <h1>Terapia para casal</h1>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h2>
+          <h2>Espaço para construção de uma comunicação mais reflexiva e assertiva para ambos, visando uma vida mais feliz e harmônica a dois.</h2>
         </div>
       </div>
 

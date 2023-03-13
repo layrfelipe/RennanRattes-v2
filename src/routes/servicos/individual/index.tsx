@@ -11,13 +11,13 @@ export default component$(() => {
       <div class="above-the-fold-container">
         <div class="content">
           <h1>Terapia individual</h1>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h2>
+          <h2>Seja o protagonista, assuma o controle e reflita sobre suas questões emocionais num ambiente livre de julgamentos e com sigilo garantido por lei.</h2>
         </div>
       </div>
 
       <div class="question-section">
         <div class='left'>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
+          <h3>Reflita: quando foi seu último gesto de autocuidado?</h3>
         </div>
 
         <div class='right'>
@@ -26,22 +26,22 @@ export default component$(() => {
       </div>
 
       <div class="steps">
-        <h3>Etapas da terapia</h3>
+        <h3>Por que fazer terapia?</h3>
         <span id="line" />
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h4>
+        <h4>Analisar nossas próprias angústias é um ato de coragem, mas também é o primeiro passo para uma escalada na direção do crescimento pessoal.</h4>
 
         <div class="steps-wrapper">
-          <p class="step">Lorem</p>
-          <p class="step">Ipsum</p>
-          <p class="step">Dolor</p>
-          <p class="step">Sit amet</p>
-          <p class="step" id="final">Imperdiet</p>
+          <p class="step">Autoconfiança</p>
+          <p class="step">Inteligência emocional</p>
+          <p class="step">Relações saudáveis</p>
+          <p class="step">Liberdade</p>
+          <p class="step" id="final">Vida plena</p>
         </div>
       </div>
 
       <div class="question-section">
         <div class='left'>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
+          <h3>Dê o primeiro passo, você não vai se arrepender.</h3>
         </div>
 
         <div class='right'>

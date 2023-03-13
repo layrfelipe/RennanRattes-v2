@@ -44,7 +44,8 @@ export default component$((props: any) => {
                 }
             </div>
 
-            <Link href='/servicos/individual' style={QwikLinkStyles}>Saiba mais</Link>
+            <Link href={props.title == "Terapia individual" ? "/servicos/individual" : props.title == "Terapia para casal" ? "/servicos/casal" : "/servicos/hipnose"} style={QwikLinkStyles}>Saiba mais</Link>
+
         </div>
 
         {

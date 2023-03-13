@@ -11,6 +11,7 @@ import RelatableIssueBox from '~/components/relatableIssueBox/relatableIssueBox'
 import Benefit from '~/components/benefit/benefit';
 import { Quotes } from '~/components/icons/quotes';
 import Faq from '~/components/faq/faq'
+import { Star } from '~/components/icons/star';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -95,6 +96,9 @@ export default component$(() => {
             <div class="header">
               <div class="description">
                   <h3>J.S., 32 anos</h3>
+                  <div class="stars">
+                    <Star /><Star /><Star /><Star /><Star />
+                  </div>
               </div>
             </div>
 
@@ -108,6 +112,9 @@ export default component$(() => {
             <div class="header">
               <div class="description">
                   <h3>M. F., 28 anos</h3>
+                  <div class="stars">
+                    <Star /><Star /><Star /><Star /><Star />
+                  </div>
               </div>
             </div>
 
@@ -121,12 +128,15 @@ export default component$(() => {
             <div class="header">
               <div class="description">
                   <h3>A.P., 47 anos</h3>
+                  <div class="stars">
+                    <Star /><Star /><Star /><Star /><Star />
+                  </div>
               </div>
             </div>
 
             <div class="body">
                 <Quotes/>
-                <p>Hoje me sinto muito mais confiante para lidar com minhas questões emocionais. Obrigado por tudo, Rennan!</p>
+                <p>Hoje me sinto muito mais confiante para lidar com as minhas questões emocionais. Obrigado por tudo que fez por mim, Rennan!</p>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ export default component$(() => {
       <div class="above-the-fold-container">
         <div class="content">
           <h1>Hipnoterapia</h1>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h2>
+          <h2>Aliada à terapia cognitivo comportamental, é uma ferramenta muito útil para ampliar a consciência e tratar transtornos diretamente nas suas origens.</h2>
         </div>
       </div>
 

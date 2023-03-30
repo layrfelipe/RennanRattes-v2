@@ -17,35 +17,35 @@ export default component$(() => {
 
       <div class="question-section">
         <div class='left'>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
+          <h3>Já buscou ajuda e nada parece funcionar para você?</h3>
         </div>
 
         <div class='right'>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.<br /><br />Morbi tristique libero vel sapien consectetur, vitae porta erat finibus. Suspendisse magna purus, pulvinar congue urna tristique, sollicitudin lobortis enim.</h4>
+          <h4>A hipnoterapia é uma forma segura de alcançar mudanças duradouras em sua vida. Ela pode ajudá-lo a superar medos e fobias, reduzir o estresse e a ansiedade.<br/><br/>Acessando seu subconsciente, você pode desbloquear todo o seu potencial e alcançar os resultados positivos que deseja.</h4>
         </div>
       </div>
 
       <div class="steps">
-        <h3>Etapas da terapia</h3>
+        <h3>A hipnoterapia vai realmente me ajudar?</h3>
         <span id="line" />
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h4>
+        <h4>Esse tipo de terapia já se provou segura e eficaz. Entre em contato e tire as suas dúvidas diretamente comigo.</h4>
 
         <div class="steps-wrapper">
-          <div class="step">Lorem</div>
-          <div class="step">Ipsum</div>
-          <div class="step">Dolor</div>
-          <div class="step">Sit amet</div>
-          <div class="step" id="final">Imperdiet</div>
+          <div class="step">Segurança</div>
+          <div class="step">Empoderamento</div>
+          <div class="step">Longo prazo</div>
+          <div class="step">Eficácia</div>
+          <div class="step" id="final">Transformação</div>
         </div>
       </div>
 
       <div class="question-section">
         <div class='left'>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
+          <h3>"É só um truque ou realmente funciona?"</h3>
         </div>
 
         <div class='right'>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.<br /><br />Morbi tristique libero vel sapien consectetur, vitae porta erat finibus. Suspendisse magna purus, pulvinar congue urna tristique, sollicitudin lobortis enim.</h4>
+          <h4>Existem muitos mitos ao redor da hipnoterapia que podem fazê-la parecer um truque ou até mesmo perigosa.<br/><br/>No entanto, a realidade é que se trata de uma forma de terapia baseada em evidências que ajudou inúmeras pessoas a alcançar mudanças de longo prazo em suas vidas.</h4>
           <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20estou%20precisando%20de%20ajuda%20psicológica" target="_blank" rel="noreferrer">Entrar em contato</a>
         </div>
       </div>

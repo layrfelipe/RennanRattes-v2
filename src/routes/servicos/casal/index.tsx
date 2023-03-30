@@ -17,35 +17,35 @@ export default component$(() => {
 
       <div class="question-section">
         <div class='left'>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
+          <h3>A comunicação está difícil? Não sabem mais o que fazer?</h3>
         </div>
 
         <div class='right'>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.<br /><br />Morbi tristique libero vel sapien consectetur, vitae porta erat finibus. Suspendisse magna purus, pulvinar congue urna tristique, sollicitudin lobortis enim.</h4>
+          <h4>A terapia de casal é o que vocês precisam. Reconstrua a parceria dos primeiros dias, estabeleça uma comunicação mais saudável. Nunca é tarde para cuidar de si e do seu amor.</h4>
         </div>
       </div>
 
       <div class="steps">
-        <h3>Etapas da terapia</h3>
+        <h3>Se vocês ainda têm fé na relação...</h3>
         <span id="line" />
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat.</h4>
+        <h4>A terapia de casal pode fortalecer o vínculo, redescobrir o amor e construir um futuro brilhante.</h4>
 
         <div class="steps-wrapper">
-          <div class="step">Lorem</div>
-          <div class="step">Ipsum</div>
-          <div class="step">Dolor</div>
-          <div class="step">Sit amet</div>
-          <div class="step" id="final">Imperdiet</div>
+          <div class="step">Comunicação</div>
+          <div class="step">Intimidade</div>
+          <div class="step">Empatia</div>
+          <div class="step">Compromisso</div>
+          <div class="step" id="final">Renovação</div>
         </div>
       </div>
 
       <div class="question-section">
         <div class='left'>
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
+          <h3>Presos na rotina? Sentindo-se estagnados?</h3>
         </div>
 
         <div class='right'>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.<br /><br />Morbi tristique libero vel sapien consectetur, vitae porta erat finibus. Suspendisse magna purus, pulvinar congue urna tristique, sollicitudin lobortis enim.</h4>
+          <h4>Fiquem tranquilos, isso é mais comum do que provavelmente pensam. Nas nossas sessões, criaremos estratégias para quebrar velhos hábitos e reacender a paixão. Volte a sentir "borboletas na barriga" com o seu amor.</h4>
           <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20estou%20precisando%20de%20ajuda%20psicológica" target="_blank" rel="noreferrer">Entrar em contato</a>
         </div>
       </div>

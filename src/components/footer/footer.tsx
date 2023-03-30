@@ -21,7 +21,7 @@ export default component$(() => {
 
                 <div class="content">
                     <h3>Rennan Rattes | Psicólogo - CRP: 05/54980</h3>
-                    <h4 id="impact-phrase">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                    <h4 id="impact-phrase">Você não é os seus problemas. A terapia te ajudará a entender isso.</h4>
                     <Button text="Marcar consulta" outline fontSize={1}/>
                 </div>
             </div>

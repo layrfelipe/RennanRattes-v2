@@ -21,7 +21,7 @@ export default component$(() => {
         </div>
 
         <div class='right'>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.<br /><br />Morbi tristique libero vel sapien consectetur, vitae porta erat finibus. Suspendisse magna purus, pulvinar congue urna tristique, sollicitudin lobortis enim.</h4>
+          <h4>Como terapeuta, eu sei exatamente como é fácil negligenciar o autocuidado em meio ao caos da vida cotidiana.<br/><br/>Mas cuidar de nós mesmos é crucial para a nossa saúde mental. Dê um passo para trás, invista no seu bem estar. Quando foi a última vez que você foi a sua prioridade?</h4>
         </div>
       </div>
 
@@ -45,7 +45,7 @@ export default component$(() => {
         </div>
 
         <div class='right'>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet tellus id auctor elementum. Phasellus ut tellus erat. Suspendisse tristique massa lectus, pulvinar mattis sapien venenatis nec.<br /><br />Morbi tristique libero vel sapien consectetur, vitae porta erat finibus. Suspendisse magna purus, pulvinar congue urna tristique, sollicitudin lobortis enim.</h4>
+          <h4>Eu entendo que a princípio pode ser assustador, mas também pode ser o início de uma jornada incrível em direção ao seu crescimento e cura.<br/><br/>À medida que você avança no processo de autoconhecimento, novos caminhos podem surgir e você pode descobrir habilidades que nem sabia que existiam.</h4>
           <a href="https://api.whatsapp.com/send?phone=5521983578629&text=Olá,%20estou%20precisando%20de%20ajuda%20psicológica" target="_blank" rel="noreferrer">Entrar em contato</a>
         </div>
       </div>

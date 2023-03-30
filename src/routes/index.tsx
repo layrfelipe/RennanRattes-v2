@@ -4,7 +4,8 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 
 import styles from '../styles/home.scss?inline';
 
-import psi from '../assets/psi.png';
+// import psi from '../assets/psi.png';
+import psi from '../assets/psi.jpg';
 
 import GoToWhatsappButton from "../components/goToWhatsappButton/goToWhatsappButton"
 import RelatableIssueBox from '~/components/relatableIssueBox/relatableIssueBox';
